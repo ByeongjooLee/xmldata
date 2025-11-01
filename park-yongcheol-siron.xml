@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 tei-criticism-schema.xsd">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>박용철 시론의 구조와 계보</title>
+        <author>
+          <persName id="author-oh" role="scholar">오형엽</persName>
+        </author>
+        <respStmt>
+          <resp>XML 인코딩 및 태깅</resp>
+          <name>한국문학 디지털 아카이브 프로젝트</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <p>학술 논문 XML 변환, 2025년 11월</p>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="journal">
+          <title>박용철 시론의 구조와 계보</title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문의 학술적 표기를 최대한 보존하였으며, 인명, 작품명, 전문용어 등을 태깅하여 구조화하였습니다.</p>
+      </editorialDecl>
+
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="persName" occurs="200"/>
+          <tagUsage gi="title" occurs="100"/>
+          <tagUsage gi="term" occurs="150"/>
+          <tagUsage gi="quote" occurs="30"/>
+          <tagUsage gi="interp" occurs="40"/>
+        </namespace>
+      </tagsDecl>
+
+      <classDecl>
+        <taxonomy id="genre-taxonomy">
+          <category id="genre-criticism">
+            <catDesc>비평</catDesc>
+          </category>
+          <category id="genre-poetry">
+            <catDesc>시</catDesc>
+          </category>
+          <category id="genre-theory">
+            <catDesc>시론</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy id="movement-taxonomy">
+          <category id="movement-romanticism">
+            <catDesc>낭만주의</catDesc>
+          </category>
+          <category id="movement-modernism">
+            <catDesc>모더니즘</catDesc>
+          </category>
+          <category id="movement-realism">
+            <catDesc>리얼리즘</catDesc>
+          </category>
+          <category id="movement-symbolism">
+            <catDesc>상징주의</catDesc>
+          </category>
+          <category id="movement-proletarian">
+            <catDesc>프로문학</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy id="concept-taxonomy">
+          <category id="concept-organism">
+            <catDesc>유기체론</catDesc>
+          </category>
+          <category id="concept-experience">
+            <catDesc>체험</catDesc>
+          </category>
+          <category id="concept-transformation">
+            <catDesc>변용</catDesc>
+          </category>
+          <category id="concept-physiology">
+            <catDesc>생리</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <div type="contents">
+        <head>목차</head>
+        <list>
+          <item n="1">박용철 문학의 위상</item>
+          <item n="2">박용철 시론의 구조</item>
+          <item n="2.1">존재의 시론과 수용과정의 탐색</item>
+          <item n="2.2">변용의 시론과 창작과정의 탐색</item>
+          <item n="3">박용철 시론의 계보</item>
+        </list>
+      </div>
+    </front>
+
+    <body>
+      <div type="section" id="section-1">
+        <head>1. 박용철 문학의 위상</head>
+
+        <p>
+          <s id="s001">
+            용아(龍兒) <persName role="poet critic" id="park-yongcheol">박용철</persName>(1904-1938)은 1930년 3월에 창간된 <title level="j" type="journal">시문학</title>지를 통해 문단에 등장한 이후 시인으로서, 비평가로서, 번역가로서, 문예지 편집인으로서 <interp value="affirmative" ana="문학사적평가">한국 현대문학사에 큰 자취를 남겼다</interp>.
+          </s>
+          <s id="s002">
+            <persName ref="#park-yongcheol">박용철</persName>이 보여준 다양한 활동만큼이나 그의 문학에 대한 연구도 다양한 분야에서 심층적으로 진행되어 왔다.
+          </s>
+          <s id="s003">
+            그것은 크게 <persName ref="#park-yongcheol">박용철</persName> 문학에 대한 전체적 연구와 <persName ref="#park-yongcheol">박용철</persName> 시론에 대한 연구로 나누어질 수 있는데, <interp value="neutral" ana="연구동향분석">전체적으로 시인, 번역가, 문예지 편집인으로서의 박용철보다 비평가로서의 박용철에 무게중심이 주어졌다</interp>고 볼 수 있다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s004">
+            이는 <persName ref="#park-yongcheol">박용철</persName>이 <title level="j" ref="#journal-simunhak">시문학</title>지를 중심으로 <term type="concept" id="term-pure-lyric">순수서정시 운동</term>을 전개하면서 이론적 근거를 제공한 점과, 이 이론 및 비평이 1930년대 문단의 역학 관계나 좌표에 하나의 <interp value="affirmative" ana="문학사적의의">중요한 문학사적 개입으로서 작용하였다</interp>는 점과 밀접한 관련을 가진다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s005">
+            <persName ref="#park-yongcheol">박용철</persName>이 등장한 1930년대는 한국 현대문학의 전개에 있어서 전형기로서, <term type="movement" ref="#movement-proletarian">프로문학</term>이 퇴조하고 시대의 중심사상이 모색되는 주조 탐색의 시기였다.
+          </s>
+          <s id="s006">
+            시대의 중심 사상을 모색하는 전형기의 공간은 새로운 문학론과 비평이 활발하게 시도되고 상호각축을 벌이는 양상을 낳는다.
+          </s>
+          <s id="s007">
+            따라서 이 시기에 서구 사조에 근거를 둔 지성론, 모랄론, 휴머니즘론, 행동주의론, 고전론, 세대론 등 다양한 비평활동이 이루어진다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s008">
+            또한 1930년대는 서구 <term type="movement" ref="#movement-modernism">모더니즘</term>의 수용으로 문학에 있어서의 현대성의 인식이 본격화된다.
+          </s>
+          <s id="s009">
+            이미지즘과 주지주의를 중심으로 한 <term ref="#movement-modernism">모더니즘</term>이 수용되어 모더니티 지향의 문학사적 흐름을 선명히 하고, 전통 지향과 모더니티 지향을 결합한 순수시의 경향과 함께, 카프 계열에 속했던 문인들도 창작방법론을 중심으로 한 비평적 관심을 지속함으로써, <interp value="affirmative" ana="시대평가">다양한 비평적 유파를 형성하고 견제와 비판을 통해 비평의 수준을 향상시킬 수 있었다</interp>.
+          </s>
+        </p>
+
+        <p>
+          <s id="s010">
+            현대성의 인식을 통해 얻어진 이러한 비평의 다양성과 수준 향상은 시론의 경우에 더욱 두드러지게 나타나는데, <persName role="critic poet" id="kim-girim">김기림</persName>을 중심으로 한 소위 <term ref="#movement-modernism">모더니즘 시론</term>, <persName role="critic" id="im-hwa">임화</persName>를 중심으로 한 소위 <term type="movement" ref="#movement-realism">리얼리즘 시론</term>, <persName ref="#park-yongcheol">박용철</persName>을 중심으로 한 소위 <term type="movement" ref="#movement-romanticism">낭만주의 시론</term>, 혹은 <term ref="#term-pure-lyric">순수 시론</term>이 그 예가 된다.
+          </s>
+          <s id="s011">
+            각 유파의 대표적 시론가로서 <persName ref="#kim-girim">김기림</persName> - <persName ref="#im-hwa">임화</persName> - <persName ref="#park-yongcheol">박용철</persName>이 각자의 시론을 전개하던 중 그들의 시관이 첨예하게 한 자리에서 경합하게 된 것은, 1935년에서 1936년에 걸쳐 벌어진 소위 <term type="concept" id="term-gigyojuui">기교주의 논쟁</term>에서이다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s012">
+            이 논쟁은 <persName ref="#kim-girim">김기림</persName> • <persName ref="#im-hwa">임화</persName> - <persName ref="#park-yongcheol">박용철</persName>이 자신 및 자신이 속한 유파의 입장과 관점을 확인하고 상대편에 대해서는 대타의식을 더 분명히하는 계기가 되는데, <interp value="affirmative" ana="문학사적의의">이 계기를 통해 세 비평가는 각자의 시론을 더욱 심화하고 정립하는 데 노력을 기울인다</interp>.
+          </s>
+          <s id="s013">
+            그리하여 세 시론가가 주장하고 정립하려고 한 소위 <term ref="#movement-modernism">모더니즘 시론</term>, <term ref="#movement-realism">리얼리즘 시론</term>, <term ref="#movement-romanticism">낭만주의</term> 혹은 <term ref="#term-pure-lyric">순수 시론</term>은 이후 각각의 계보를 형성하면서 <interp value="affirmative" ana="문학사적평가">1980년대까지 한국 현대시사에 세 개의 큰 물줄기를 형성해 온 것이다</interp>.
+          </s>
+        </p>
+
+        <p>
+          <s id="s014">
+            따라서 이 글은 <term ref="#term-pure-lyric">순수서정시 운동</term>을 주도한 <persName ref="#park-yongcheol">박용철</persName>의 문학을 시론 중심으로 고찰하면서 그것이 지닌 현재성을 검토하려는 의도에서 작성된다.
+          </s>
+          <s id="s015">
+            <persName ref="#park-yongcheol">박용철</persName> 시론을 크게 전기 시론과 후기 시론으로 나누어 그 특징을 구조의 측면에서 고찰하고, 계보의 측면을 중심으로 그 현재적 의미를 살펴보고자 하는 것이다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s016">
+            <persName ref="#park-yongcheol">박용철</persName> 시론은 새로운 관점과 정교한 연구방법에 의해 더 심층적으로 연구될 필요가 있다.
+          </s>
+          <s id="s017">
+            따라서 이 글은 <term ref="#movement-romanticism">낭만주의</term>나 심미주의 등의 문예사조적 개념을 선입관으로 개입시키지 않고 텍스트 자체로부터 미학적 원리나 양식을 규명하고, 시론 자체의 연구에 있어서 전개과정에 따른 통시적 고찰과 비평의 원리를 추출하는 공시적 고찰을 상호보완적으로 시도하며, <persName ref="#park-yongcheol">박용철</persName> 시론이 지닌 문제설정 및 미적 현대성의 개념을 고찰함으로써, 그 구조와 계보에 접근하고자 한다.
+          </s>
+        </p>
+      </div>
+
+      <div type="section" id="section-2">
+        <head>2. 박용철 시론의 구조</head>
+
+        <div type="section" id="section-2-1">
+          <head>2.1. 존재의 시론과 수용과정의 탐색</head>
+
+          <p>
+            <s id="s101">
+              <persName ref="#park-yongcheol">박용철</persName>의 시관은 문학적 이념이나 기법의 측면에서 벗어나 문학의 본질이라고 할 수 있는 어떤 것에 닿아 있다.
+            </s>
+            <s id="s102">
+              이러한 인식은 1920년대 후반의 계급주의 문학과 민족주의 문학이 지향했던 목적의식에서 벗어나 <interp value="affirmative" ana="이론적기여">시의 본래적 측면을 되새기는 계기를 제공한다</interp>.
+            </s>
+            <s id="s103">
+              이데올로기의 갈등으로 혼란을 빚고 있던 1920년대 후반에서 1930년대 초반의 시단에 대해 시의 순수성을 주장하고 확보하려는 시도는, 다른 한편으로 세계, 즉 구체적 • 객관적 현실과의 관련성을 고려하지 않는 문제점을 낳는다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s104">
+              1930년 3월 <title level="j" ref="#journal-simunhak">시문학</title>지 창간을 계기로 발표한 <title level="a" type="critic" id="essay-simunhak-changgan">「시문학」 창간에 대하여</title>에는 <persName ref="#park-yongcheol">박용철</persName> 시론의 기본 정신이 나타나 있다.
+            </s>
+          </p>
+
+          <p>
+            <quote type="direct" source="시문학 창간에 대하여" genre="critic">
+              <s id="q001">
+                시라는 것은 시인으로 말미암아 창조된 한낱 존재이다.
+              </s>
+              <s id="q002">
+                조각과 회화가 한 개의 존재인 것과 꼭같이 시나 음악도 한낱 존재이다.
+              </s>
+              <s id="q003">
+                우리가 거기에서 받는 인상은 혹은 비애 환희 우수 혹은 평온 명정 혹은 격렬 숭엄 등 진실로 추상적 형용사로는 다 형용할 수 없는 그 자체 수대로의 무한수일 것이다.
+              </s>
+              <s id="q004">
+                그러나 그것이 어떠한 방향이든 시란 한낱 고처(高處)이다.
+              </s>
+              <s id="q005">
+                물은 높은 데서 낮은 데로 흘러나려온다.
+              </s>
+              <s id="q006">
+                시의 심경(心境)은 우리 일상생활의 수평 정서보다 더 고상하거나 더 우아하거나 더 섬세하거나 더 장대하거나 더 격월(激越)하거나 어떠튼 '더'를 요구한다.
+              </s>
+              <s id="q007">
+                거기서 우리에게까지 '무엇'이 흘러 '나려와'야만 한다.
+              </s>
+            </quote>
+          </p>
+
+          <p>
+            <s id="s105">
+              "시라는 것은 시인으로 말미암아 창조된 한낱 존재이다." 이 한 문장에는 <persName ref="#park-yongcheol">박용철</persName> 전기 시론의 특징을 결정짓는 몇 가지 중요한 관점이 내포되어 있다.
+            </s>
+            <s id="s106">
+              첫째, 시를 하나의 '<term type="concept" id="term-jongjae">존재</term>'로 보는 관점이다.
+            </s>
+            <s id="s107">
+              이는 시를 하나의 자율적 객체로 본다는 점에서 '시와 시인의 분리'를 전제로 한 것이다.
+            </s>
+            <s id="s108">
+              둘째, 이러한 '시와 시인의 분리'는 '시와 현실의 분리'와 연결되어 <persName ref="#im-hwa">임화</persName>가 중심이 된 프로시의 특징, 즉 현실과 이념 중심의 시관에 대응하는 의미를 지닌다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s109">
+              그것은 "한낱"이라는 부사가 강조된 데서도 암시된다.
+            </s>
+            <s id="s110">
+              "한낱"에는 시를 거창한 이념의 선언이 아닌 그저 노래 자체로 보는 관점이 내포되어 있는 것이다.
+            </s>
+            <s id="s111">
+              셋째, <persName ref="#park-yongcheol">박용철</persName>의 '<term ref="#term-jongjae">존재로서의 시</term>'가 지닌 '시와 시인의 분리'는 뉴크리시즘에 근거한 <persName ref="#kim-girim">김기림</persName>의 그것과도 차별성을 지닌다.
+            </s>
+            <s id="s112">
+              그것은 "시인으로 말미암아 창조된"에서 유추될 수 있다.
+            </s>
+            <s id="s113">
+              <persName ref="#kim-girim">김기림</persName>이 시와 시인을 분리하는 것은 시의 존재로서의 가치를 객관적으로 평가하기 위해서인데 반해, <persName ref="#park-yongcheol">박용철</persName>의 그것은 <interp value="neutral" ana="이론적특징">시보다 시인의 가치를 더 높이기 위해서인 것이다</interp>.
+            </s>
+          </p>
+
+          <p>
+            <s id="s114">
+              따라서 "한낱"이라는 부사에는 시보다 시인의 가치에 더 비중을 두는 관점도 내포되어 있다.
+            </s>
+            <s id="s115">
+              결국 이 하나의 문장 속에는 <persName ref="#im-hwa">임화</persName>로 대표되는 <term ref="#movement-realism">리얼리즘 시론</term>의 이념성과, <persName ref="#kim-girim">김기림</persName>으로 대표되는 <term ref="#movement-modernism">모더니즘 시론</term>의 작품 중시를 <interp value="affirmative" ana="이론적전략">동시에 부정하는 대타의식이 용해되어 있는 것이다</interp>.
+            </s>
+          </p>
+
+          <p>
+            <s id="s116">
+              "한낱 존재"인 '시'보다 더 큰 가치를 지닌 '시인'을 <persName ref="#park-yongcheol">박용철</persName>은 "비범한 심정"을 지닌 "천재적 존재"로 간주한다.
+            </s>
+            <s id="s117">
+              그리고 이 천재적 개인에 의해 창조되는 시를 "더욱이 어떤 순간에 감득(感得)한 희귀한 심경(心境)을 표현시킨 것"으로 설명하고 있다.
+            </s>
+            <s id="s118">
+              이는 <term ref="#movement-romanticism">낭만주의적</term> 시관에 가까운 것인데, <persName ref="#park-yongcheol">박용철</persName>이 19세기 서구 낭만주의 서정시를 번역하면서 얻어진 소박한 시론이라고 볼 수 있을 것이다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s119">
+              그런데 <persName ref="#park-yongcheol">박용철</persName>은 전기 시론에서 시인과 시의 관계, 즉 창작과정의 관점보다 시와 감상자의 관계, 즉 <term type="concept" id="term-suyong">수용과정</term>의 관점에 주안점을 두고 있다.
+            </s>
+            <s id="s120">
+              <persName ref="#park-yongcheol">박용철</persName>은 시를 시인과 분리하면서 시간적 • 공간적 현실과도 분리시켜 하나의 예술적 형상으로서 객관적 존재로 파악한다.
+            </s>
+            <s id="s121">
+              그리고 시보다 시인에게 더 큰 가치를 둔다.
+            </s>
+            <s id="s122">
+              그런데 '<term ref="#term-jongjae">존재로서의 시</term>'의 관점에서 시와 시인의 관계를 창작과정에서 천착하는 것은 자체 내 모순을 야기한다.
+            </s>
+            <s id="s123">
+              즉 '시와 시인의 분리'라는 자율성의 관점과, 천재적 개인으로서의 시인이 시를 창조하는 과정을 천착하는 관점을 하나로 통합하는 것에는 난점이 따르는 것이다.
+            </s>
+            <s id="s124">
+              <interp value="neutral" ana="이론적한계">이러한 난점으로 인해 박용철은 '존재로서의 시'를 시의 '수용과정'에 대한 관점과 우선 결부시키게 되는 것으로 보인다</interp>.
+            </s>
+          </p>
+
+          <p>
+            <s id="s125">
+              '<term ref="#term-jongjae">존재로서의 시</term>'는 시를 그 자체의 예술작품으로 보는 입장으로 미적 자율성을 인정하는 관점을 지닌다.
+            </s>
+            <s id="s126">
+              그러나 '<term ref="#term-jongjae">존재의 시론</term>'이 지닌 이 미적 현대성의 측면은 단순히 칸트의 '예술의 자율성' 개념으로서의 '시와 시인(현실)의 분리'라는 자족적인 차원에서 형성된 것이어서 소극적인 한계를 지닌다.
+            </s>
+            <s id="s127">
+              그것은 소박한 <term ref="#movement-romanticism">낭만주의적</term> 시관이 지닌 내밀하고 폐쇄적인 공간에 갇히게 되는 것인데, <persName ref="#park-yongcheol">박용철</persName>은 이러한 협소함을 인식하고 나름대로 넘어서기 위해 '<term ref="#term-jongjae">존재의 시론</term>'을 시의 '<term ref="#term-suyong">수용에 대한 관점</term>'과 결부시키는 것으로 보인다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s128">
+              <persName ref="#park-yongcheol">박용철</persName>의 본격적인 첫 시론에 해당되는 <title level="a" type="critic" id="essay-hyogwa">효과주의적 비평논강</title>은 이러한 고찰의 연장선에서 시의 사회적 효용론의 양상을 보여준다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s129">
+              <persName ref="#park-yongcheol">박용철</persName>이 언급하는 예술작품의 사회적 효과는 두 가지 측면에서 <term ref="#movement-proletarian">프로문학</term>이나 민족주의 문학의 관점과 구별된다.
+            </s>
+            <s id="s130">
+              첫째는 예술의 사회적 영향력은 간접적으로 작용한다는 점이다.
+            </s>
+            <s id="s131">
+              둘째는 이러한 간접적 영향력이 작품을 읽는 독자의 인상, 심정의 변화, 달라진 태도, 사회적 활동이라는 전이과정을 통해 설명되고 있는 점이다.
+            </s>
+            <s id="s132">
+              결국 <persName ref="#park-yongcheol">박용철</persName>은 예술은 그것의 인상을 받아들이는 독자의 <term ref="#term-suyong">수용과정</term>을 거쳐 간접적으로 사회에 영향을 미친다고 말함으로써, <interp value="affirmative" ana="이론적차별성">프로문학과 민족주의 문학이 주장하는 직접적 사회 계도의 목적성에 반발하고 있는 것이다</interp>.
+            </s>
+          </p>
+
+          <p>
+            <s id="s133">
+              따라서 <persName ref="#park-yongcheol">박용철</persName>의 이론적 기초가 비록 인상주의의 한계에 머물러 있고, 예술의 자율성에 대한 인식이 현대 사회의 속성에 대한 구체적인 저항의 의미를 확보하지 못했다 하더라도, <interp value="affirmative" ana="문학사적의의">당시 문단에 던지는 비평적 개입으로서 의미 있는 평가를 받을 수 있다</interp>.
+            </s>
+            <s id="s134">
+              한편 이러한 <persName ref="#park-yongcheol">박용철</persName>의 입장에는 인상주의적 비평의 관점이 유지되고 있는데, 이 글의 "우리의 판별력으로 그것을 측량할 수 있고 없는 문제는 있으나"라는 표현은, 인상주의적 비평에 의한 독자의 수용이 쉽지만은 않다는 여지를 남긴다.
+            </s>
+          </p>
+
+          <p>
+            <quote type="direct" source="효과주의적 비평논강" genre="critic">
+              <s id="q008">
+                비평가의 직능... 그러나 한개의 작품이 개인의 심리에 나아가 사회에 끼치는 영향은 과연 측정하기 쉬울 만큼 두드러진 것이냐, 아니다.
+              </s>
+              <s id="q009">
+                이 영향은 지극히 미세한 것이어서 비상(非常)한 천재의 진맥이 아니고는 알아낼 수 없는 것이다.
+              </s>
+              <s id="q010">
+                (중략) 보통의 독자는 자기의 받은 인상을 분석하야 언어로 발표할 수도 없는 미소(微少)한 영향을 더구나 사후의 실증적 측정이 아니라 예측할 책임을 문예 비평가는 가지는 것이다.
+              </s>
+              <s id="q011">
+                그러므로 비평가는 특별히 예리한 감수성을 가지고 자기의 받은 인상을 분석하므로 일반독자의 받을 인상을 추측하야 이 작품이 사회에 끼칠 효과의 민감한 계량기, 효과의 예보의 청우계(晴雨計)가 되어야 한다.
+              </s>
+            </quote>
+          </p>
+
+          <p>
+            <s id="s135">
+              <persName ref="#park-yongcheol">박용철</persName>은 한 작품이 개인의 심리에서 나아가 사회에 끼치는 영향은 지극히 미세한 것이어서 '비상한 천재의 진맥'이 아니고는 알아낼 수 없다고 말한다.
+            </s>
+            <s id="s136">
+              그리고 이것을 예측하는 책임이 문예비평가에게 있다고 보는데, 이 점에서 <persName ref="#park-yongcheol">박용철</persName>은 비평가를 특별히 예리한 감수력을 지닌 비범한 천재로 간주하고 있다.
+            </s>
+            <s id="s137">
+              원래 <term ref="#movement-romanticism">낭만주의</term> 시론의 기본 개념은 시인을 천재적 개인으로 보고, 시를 그 천재의 영감이나 상상력이 자발적으로 유출되어 표현된 것으로 본다.
+            </s>
+            <s id="s138">
+              <persName ref="#park-yongcheol">박용철</persName>은 이러한 관점을 역으로 적용하여 작품을 감상하고 그 효과를 측정하는 비평가에게 이 천재의 지위를 부여한다.
+            </s>
+            <s id="s139">
+              다시 말하면, '<term ref="#term-jongjae">존재의 시론</term>'과 '<term ref="#term-suyong">수용과정의 관점</term>'을 결부시키고 이를 더 확장하여 사회적 효용론으로서 비평가의 역할을 강조하는 것이다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s140">
+              지금까지의 논의를 요약하면, 시를 하나의 '<term ref="#term-jongjae">존재로 보는 관점</term>'과 그것을 감상자, 혹은 비평가의 입장에서 바라보는 '<term ref="#term-suyong">수용과정의 관점</term>'이 <interp value="affirmative" ana="시론구조분석">박용철 전기 시론을 특징짓는 중요한 요소가 된다</interp>.
+            </s>
+            <s id="s141">
+              이제 <persName ref="#park-yongcheol">박용철</persName> 전기 시론이 지닌 형식적 특징을 살펴보기로 하자.
+            </s>
+          </p>
+
+          <p>
+            <s id="s142">
+              우선 '시가 한낱 존재'라는 언급 바로 다음의 문장 "조각과 회화가 한 개의 존재인 것과 꼭같이 시나 음악도 한낱 존재이다"라는 진술을 주목할 수 있다.
+            </s>
+            <s id="s143">
+              시와 음악을 하나로 묶어서 말하는 <persName ref="#park-yongcheol">박용철</persName>의 태도에는 시의 속성을 음악적 특징과 결부시켜 사고하는 관점이 용해되어 있다.
+            </s>
+            <s id="s144">
+              이러한 관점은 조각 • 회화가 지닌 공간적 형식과 구별하여 시를 음악이 지닌 시간적 형식과 관련시키는 것으로 이해된다.
+            </s>
+            <s id="s145">
+              이것은 시를 "고처"로 보고 물이 높은 데서 낮은 데로 흘러내리는 비유를 사용한 대목에서도 확인될 수 있다.
+            </s>
+            <s id="s146">
+              물이 흘러내리는 것은 그 유동성으로 인하여 회화적 형식이 지닌 공간성보다 음악적 형식이 지닌 시간성과 밀접한 관련을 지니기 때문이다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s147">
+              <title level="a" ref="#essay-simunhak-changgan">「시문학」 창간에 대하여</title>의 이러한 단편적 진술과 관련하여, <title level="j" ref="#journal-simunhak">시문학</title> 창간호의 편집후기에는 다음과 같은 대목이 눈에 띈다.
+            </s>
+          </p>
+
+          <p>
+            <quote type="direct" source="시문학 편집후기" genre="critic">
+              <s id="q012">
+                우리는 시를 살로 색이고 피로 쓰듯 쓰고야만다.
+              </s>
+              <s id="q013">
+                우리의 시는 우리 살과 피의 맺힘이다.
+              </s>
+              <s id="q014">
+                그럼으로 우리의 시는 지나는 거름에 슬적 읽어치워지기를 바라지못하고 우리의 시는 열번스무번 되씹어읽고 외여지기를 바랄뿐 가슴에 느낌이 있을때 절로 읊어나오고 읊으면 느낌이 이러나야만 한다.
+              </s>
+              <s id="q015">
+                한말로 우리의 시는 외여지기를 구한다.
+              </s>
+              <s id="q016">
+                이것이 오즉 하나 우리의 오만한 선언이다.
+              </s>
+              <s id="q017">
+                (중략) 한 민족의 언어가 발달의 어느 정도에 이르면 구어(口語)로서의 존재에 만족하지 아니하고 문학의 형태를 요구한다.
+              </s>
+              <s id="q018">
+                그리고 그 문학의 성립은 그 민족의 언어를 완성식히는 길이다.
+              </s>
+            </quote>
+          </p>
+
+          <p>
+            <s id="s148">
+              "살"과 "피"로 쓰는 시는 머리로 쓰는 시가 아니라 몸 전체로 쓰는 시를 의미하는데, 이는 '<term type="concept" id="term-saengri">생리</term>'를 중시하는 시관이다.
+            </s>
+            <s id="s149">
+              이것은 <persName ref="#im-hwa">임화</persName> 시론으로 대변되는 <term ref="#movement-proletarian">프로시</term>의 '이데올로기'와, <persName ref="#kim-girim">김기림</persName> 시론으로 대변되는 <term ref="#movement-modernism">모더니즘</term> 시의 '지성'에 대한 대타 개념으로 설정된 측면도 지닌다.
+            </s>
+            <s id="s150">
+              이 대타의식은 <term ref="#movement-proletarian">프로시</term>나 <term ref="#movement-modernism">모더니즘시</term>에 맞서는 소위 시문학파 시동인들의 결속감으로 이어지는데, 그것이 인용문에 반복되는 "우리"라는 표현으로 나타나는 것으로 보인다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s151">
+              그런데 <persName ref="#park-yongcheol">박용철</persName>은 이처럼 살과 피로 쓰여지는 시가 외워지기를 바란다.
+            </s>
+            <s id="s152">
+              외워지는 시란 시를 <term ref="#term-saengri">생리</term>와 체험에 근거한 청각적 감흥의 대상으로 보는 것을 의미한다.
+            </s>
+            <s id="s153">
+              즉 <persName ref="#park-yongcheol">박용철</persName>에게 있어 시란 곧 노래이다.
+            </s>
+            <s id="s154">
+              가슴에 느낌이 있을 때 절로 시가 읊어나오는 것은 '감정의 자발적 유출'이라는 <persName role="poet" id="wordsworth">워즈워스</persName>의 <term ref="#movement-romanticism">낭만주의적</term> 표현론에 닿아 있는데, <persName ref="#park-yongcheol">박용철</persName>은 그 관점을 <term ref="#term-suyong">수용과정</term>에도 적용하여 시를 읊으면 느낌이 일어나야 한다고 말한다.
+            </s>
+            <s id="s155">
+              시를 노래로 보고 그 느낌과 표현을 중시한 이러한 관점은, <interp value="neutral" ana="시론특징">박용철의 시론이 생리에서 자연스럽게 흘러나오는 음악적 운율을 중시하는 것</interp>을 확인시켜 준다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s156">
+              <term ref="#term-saengri">생리</term>와 음악적 운율을 중시하는 태도는 <persName ref="#park-yongcheol">박용철</persName>이 "시인은 천성(天成)이요 배화되는 것이 아니라하며 시란 감정의 자연스런 발로며 분방한 횡일(橫溢)"이라고 요약한 바 있는 서구 <term ref="#movement-romanticism">낭만주의</term> 시관과 밀접한 관련성을 지닌다.
+            </s>
+            <s id="s157">
+              서구의 <term ref="#movement-romanticism">낭만주의</term>는 감성적 세계인식과 유기체적 세계관, 관념주의로 요약되며, 그것은 다시 천재로서의 창조적 자아, 직관과 상상력 옹호, 초개인적인 힘, 기연론적(起緣論的) 세계관, 범신론적 자연, 원시 동경(primitivism), 시간적 • 공간적 동경, 내면적 동경 등으로 세분될 수 있다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s158">
+              그런데 <persName ref="#park-yongcheol">박용철</persName>의 전기 시론이 소박한 <term ref="#movement-romanticism">낭만주의적</term> 표현론에 닿아 있다는 것은 그의 미적 현대성이 소극적인 차원, 즉 사회의식과 결별된 예술의 순수성을 추구하는 것과 관계된다.
+            </s>
+            <s id="s159">
+              서구의 <term ref="#movement-romanticism">낭만주의</term>는 예술 형식의 합목적성, 미적 판단에 있어서의 무관심성 등으로 요약되는 칸트의 '예술의 자율성 이론'을 사상적 배경으로 하는 동시에, 프랑스 혁명의 좌절과 산업혁명의 와중에서 사회적 압박에 대한 대항으로서 시를 우월한 실재의 가치로 인식하고 옹호한 점에서 미적 현대성의 적극적 차원을 지닐 수 있었다.
+            </s>
+            <s id="s160">
+              이에 반해 <persName ref="#park-yongcheol">박용철</persName>의 전기 시론은 감성적 직관과 유기체적 세계관으로 <term ref="#movement-proletarian">프로시</term>와 <term ref="#movement-modernism">모더니즘시</term>가 지닌 이성적 주체에 의한 진보적 역사관에 대응한 점에서 미적 현대성의 일면을 지니지만, <interp value="critical" ana="이론적한계">그것이 다분히 사회적 현대화의 진행과 유리된 채 예술의 순수성을 추구하는 측면에만 한정된 점에서 소극적 의미를 지니게 된다</interp>.
+            </s>
+          </p>
+        </div>
+
+        <div type="section" id="section-2-2">
+          <head>2.2. 변용의 시론과 창작과정의 탐색</head>
+
+          <p>
+            <s id="s201">
+              <persName ref="#park-yongcheol">박용철</persName>의 시론에 일종의 질적 변화의 계기를 마련해 준 것은 <persName role="poet" id="housman">하우스만</persName>(A. E. Housman)의 시론 <title level="m" type="other" id="theory-housman">시의 명칭과 성질</title>(The Name and the Nature of Poetry)이다.
+            </s>
+            <s id="s202">
+              <persName ref="#park-yongcheol">박용철</persName>은 <persName ref="#housman">하우스만</persName>이 1933년 2월 캠브리지 대학의 레슬리 스티븐 강연으로 행한 이 시론을 번역하여 <title level="j" type="journal">문학</title> 제2권(1934. 2)에 권두 논문으로 발표하는데, <interp value="affirmative" ana="영향관계분석">이를 통해 자신의 시론을 이론적으로 체계화하여 이후 본격적인 시론을 발표하게 된다</interp>.
+            </s>
+            <s id="s203">
+              <persName ref="#housman">하우스만</persName>의 시론이 <persName ref="#park-yongcheol">박용철</persName>에게 미친 영향은 크게 두 가지 관점에서 정리될 수 있다.
+            </s>
+            <s id="s204">
+              하나는 시의 <term ref="#term-suyong">수용과정</term>에 대한 종전의 입장을 확인하는 것이고 또 하나는 시의 창작과정에 대한 새로운 이해를 얻는 것이다.
+            </s>
+          </p>
+
+          <p>
+            <quote type="direct" source="시의 명칭과 성질" genre="theory">
+              <s id="q019">
+                시는 말해진 내용이 아니요 그것을 말하는 방식이다.
+              </s>
+              <s id="q020">
+                그러면 그것은 분리해서 따로 연구할 수 있는 것이냐, 언어와 그 지적 내용 그 의미와의 결연은 상상할 수 있는 가장 긴밀한 결연이다.
+              </s>
+              <s id="q021">
+                혼성되지 않은 순연한 시, 의미에서 독립된 시, 그런 것이 어디 있겠느냐 시가 의미를 가지고 있을 때에도 (언제나 그러한 것이지마는) 그것을 따로 끌어내는 것은 재미스럽지 않다.
+              </s>
+              <s id="q022">
+                (중략) 의미는 지성에 속한 것이나 시는 그렇지 않다.
+              </s>
+              <s id="q023">
+                만일 그렇다 하면 18세기는 더 좋은 시를 썼을 수 있을 것이다.
+              </s>
+            </quote>
+          </p>
+
+          <p>
+            <quote type="direct" source="시의 명칭과 성질" genre="theory">
+              <s id="q024">
+                내 생각에는 시의 산출이란 제 1단계에 있어서는 능동적이라는 것보다 오히려 수동적 비지원적(非志願的) 과정인가 한다.
+              </s>
+              <s id="q025">
+                만일 내가 시를 정의하지 않고 그것이 속한 사물의 종별만을 말하고 말 수 있다면, 나는 이것을 분비물이라고 하고 싶다.
+              </s>
+              <s id="q026">
+                종나무의 수지(樹脂)같이 자연스런 분비물이던지 패모(貝母) 속에 진주같이 병적 분비물이던지 간에 내 자신의 경우로 말하면 이 후자인 줄로 생각한다.
+              </s>
+              <s id="q027">
+                (중략) 이렇게 뇌에 와서 제공되는 시사(示唆)의 원천은 내가 인식할 수 있는 한에서는 심연 즉 (내가 이미 말한 바와 같이) 흉와(胸窩)이다.
+              </s>
+            </quote>
+          </p>
+
+          <p>
+            <s id="s205">
+              첫 번째 인용에서 <persName ref="#housman">하우스만</persName>은 시에서 말해진 내용보다 말하는 방식에 비중을 둔다.
+            </s>
+            <s id="s206">
+              그리고 시에서 내용을 따로 끌어내어 연구하는 것은 바람직하지 않다고 보는데, 그 근거로 언어와 내용(의미)의 긴밀한 결합관계를 제시한다.
+            </s>
+            <s id="s207">
+              이러한 관점은 '<term type="concept" id="term-organic">내용과 형식의 유기적 결합설</term>'로 요약될 수 있을 것이다.
+            </s>
+            <s id="s208">
+              전기 시론에서 "그 '무엇'까지를 세밀하게 규정하려면 다만 편협에 빠지고 만다", "이 영향은 극히 미세한 것이어서 비상한 천재의 진맥이 아니고는 알아낼 수 없는 것이다"라고 말한 바 있는 <persName ref="#park-yongcheol">박용철</persName>에게, <interp value="affirmative" ana="영향관계평가">이러한 하우스만의 견해는 자신의 견해를 확인하고 심화시키는 계기가 되기에 충분한 것이다</interp>.
+            </s>
+            <s id="s209">
+              이 관점은 시의 <term ref="#term-suyong">수용과정</term>에 대한 종전의 입장 확인이라고 볼 수 있다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s210">
+              두 번째 인용에서 <persName ref="#housman">하우스만</persName>은 자신의 체험을 통해 시 창작과정을 구체적으로 서술한다.
+            </s>
+            <s id="s211">
+              그 내용은 크게 두 가지로 요약될 수 있는데, 하나는 시 창작의 일단계를 수동적 비지원적(非志願的) 과정으로 보는 것이고, 또 하나는 그 원천을 심연 즉 흉와로 간주하는 것이다.
+            </s>
+            <s id="s212">
+              시작 과정의 수동성은 시를 "분비물"로 보는 관점에서도 드러나는데, <persName ref="#housman">하우스만</persName>에게 있어 시작이란 이성의 근거를 둔 기교의 문제가 아니라 신체적 본능의 문제인 것이다.
+            </s>
+            <s id="s213">
+              이러한 시작의 원천으로 본 "흉와"는 신체적 • 본능적 중심부로서 심정의 근원인 영감을 상징한다.
+            </s>
+            <s id="s214">
+              결국 <persName ref="#housman">하우스만</persName>의 체험적 시론은 '신체적 본능에 의한 수동설'과 '영감설'로 요약될 수 있다.
+            </s>
+            <s id="s215">
+              이 관점은 시의 창작과정에 대한 새로운 이해에 해당한다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s216">
+              <persName ref="#housman">하우스만</persName>의 <title level="m" ref="#theory-housman">시의 명칭과 성질</title>이 번역되고 3, 4년간의 침묵 후에 발표된 <title level="a" type="critic" id="essay-eulhae">을해시단총평</title>(동아일보 1935. 12)은 <persName ref="#park-yongcheol">박용철</persName> 후기 시론의 첫 자리에 놓인다.
+            </s>
+            <s id="s217">
+              그것은 전체적으로 <persName ref="#kim-girim">김기림</persName>과 <persName ref="#im-hwa">임화</persName>를 비판하고 <persName role="poet" id="jeong-jiyong">정지용</persName>과 <title level="j" type="journal">시원(詩苑)</title>을 옹호하는 내용으로 되어 있다.
+            </s>
+            <s id="s218">
+              이러한 내용은 이 평문이 <term ref="#term-gigyojuui">기교주의 논쟁</term>에 개입하면서 제출된 사정과도 관련된다.
+            </s>
+            <s id="s219">
+              <persName ref="#park-yongcheol">박용철</persName>은 <persName role="poet" id="kim-yeongrang">김영랑</persName> - <persName ref="#jeong-jiyong">정지용</persName> 등으로 대표되는 시문학파를 옹호하면서, <persName ref="#im-hwa">임화</persName> 중심의 현실과 내용을 중시하는 프로 시파와 <persName ref="#kim-girim">김기림</persName> 중심의 지성과 형식을 중시하는 <term ref="#movement-modernism">모더니즘</term> 시파를 비판하는 것이다.
+            </s>
+          </p>
+
+          <p>
+            <quote type="direct" source="을해시단총평" genre="critic">
+              <s id="q028">
+                우리는 이러한 출발점을 가져서는 안된다.
+              </s>
+              <s id="q029">
+                선인(先人)과 같은 시를 쓸 우려가 있으니 우리는 새로운 고안을 해야 한다는 데서 출발하면 거기는 의상사(衣裳師)에로의 길이 있을 뿐이다.
+              </s>
+              <s id="q030">
+                우리는 이러한 출발점을 가져야 한다.
+              </s>
+              <s id="q031">
+                "우리는 전생리(全生理)에 있어 이미 선인과 같지 않기에 새로히 시를 쓰고 따로이 할 말이 있기에 새로운 시를 쓴다" (전생리라는 말은 육체, 지성, 감정, 감각 기타의 총합을 의미한다).
+              </s>
+            </quote>
+          </p>
+
+          <p>
+            <quote type="direct" source="을해시단총평" genre="critic">
+              <s id="q032">
+                <persName ref="#im-hwa">임화</persName> 씨의 논문 「담천하의 시단 1년」(신동아 송년호)은 세밀한 토의의 대상이 되기에는 너무 수많은 사실 인식의 착오와 논리의 혼란이 있다.
+              </s>
+              <s id="q033">
+                그러나 그 논문의 본질은 역시 표제(表題) 중시의 사상에 있고 시적 기법을 이해함에 있어서는 시를 약간의 설명적 변설(辯說)로 보는데 지나지 않는다.
+              </s>
+              <s id="q034">
+                (중략) 시는 아름다운 변설, 적절한 변설, 이로정연(理路井然)한 변설, 이러한 약간의 변설에 그칠 것이 아니다.
+              </s>
+              <s id="q035">
+                특이한 체험이 절정에 달한 순간의 시인을 꽃이나 혹은 돌맹이로 정착시키는 것 같은 언어 최고의 기능을 발휘시키는 길이다.
+              </s>
+            </quote>
+          </p>
+
+          <p>
+            <s id="s220">
+              첫 번째 인용에서 <persName ref="#park-yongcheol">박용철</persName>은 <term ref="#movement-modernism">모더니즘</term> 경향의 시인들을 새로운 고안에 급급한 의상사라고 비판하는데, 그 원인을 <persName ref="#kim-girim">김기림</persName>의 시론이 '<term ref="#term-saengri">생리</term>'가 아닌 '지성'에 근거하는 점을 든다.
+            </s>
+            <s id="s221">
+              그리고 기성과 의상사의 길을 기교주의와 연결시킨다.
+            </s>
+            <s id="s222">
+              이러한 <persName ref="#park-yongcheol">박용철</persName>의 <persName ref="#kim-girim">김기림</persName> 비판은 '지성' 혹은 '기교' 대 '<term ref="#term-saengri">생리</term>'라는 대립개념을 토대로 이루어지는데, <persName ref="#park-yongcheol">박용철</persName>이 주장하는 '<term ref="#term-saengri">생리</term>'는 전기 시론에서부터 유지되어 <persName ref="#housman">하우스만</persName> 시론의 수용으로 더욱 강화된 중심 개념이다.
+            </s>
+            <s id="s223">
+              그것은 '살과 피', '흉와', '덩어리', '분비물' 등의 비유를 모두 포괄하고 있는데, <persName ref="#park-yongcheol">박용철</persName>은 '<term type="concept" id="term-jeongsaengri">전생리</term>'라는 용어를 사용하고 그것이 육체, 지성, 감정, 감각 등의 총합을 의미한다고 정의한다.
+            </s>
+            <s id="s224">
+              이러한 포괄적 의미 부여는 <term ref="#term-saengri">생리</term>의 속성상 논리적 검증이 불가능한 점에서 어느 정도 주관적 언급이라고 할 수도 있는데, <interp value="neutral" ana="이론적전략">이러한 포괄성에는 김기림 시론의 지성이 지닌 편협함과 대비시키려는 의도가 내포되어 있는 듯이 보인다</interp>.
+            </s>
+            <s id="s225">
+              아무튼 <persName ref="#park-yongcheol">박용철</persName>은 지성이나 시적 기법보다 그것을 가능케 하는 <term ref="#term-saengri">생리적 필연</term>이 시의 본질이라는 입장이다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s226">
+              두 번째 인용에서 <persName ref="#park-yongcheol">박용철</persName>은 <persName ref="#im-hwa">임화</persName> 시론의 본질을 '표제 중시의 사상'으로 보고 시적 기법의 차원에서는 시를 '설명적 변설'로 본다고 언급한다.
+            </s>
+            <s id="s227">
+              이는 <persName ref="#im-hwa">임화</persName> 시론이 지닌 내용 우위의 시관을 지적한 것으로서, 시를 주로 내용의 측면에만 치중하여 인식하는 태도를 가리킨다.
+            </s>
+            <s id="s228">
+              이러한 내용 우위의 시관은 "시인은 시대현실의 본질이나 그 각각의 세세한 전이의 가장 민첩하고 정확한 인지자이어야 하고 그것을 시적 언어로 반영 표현해야 한다"라는, <persName ref="#im-hwa">임화</persName>의 진술에 나타난 시대현실의 인지와 그 반영의 관점을 내포하고 있다.
+            </s>
+            <s id="s229">
+              이에 대해 <persName ref="#park-yongcheol">박용철</persName>은 시대현실보다 그것을 체험하는 개인의 <term ref="#term-saengri">생리적 필연</term>으로서 덩어리를 표현하는 것이 더 중요하다고 피력한다.
+            </s>
+            <s id="s230">
+              따라서 <persName ref="#park-yongcheol">박용철</persName>은 '변설 이상의 시'를 주장하고, 이어서 그것을 <term type="concept" id="term-chehum">체험</term>과 <term type="concept" id="term-byeonyong">변용</term>의 차원에서 언어 최고의 기능을 발휘하는 길이라고 설명한다.
+            </s>
+            <s id="s231">
+              이는 <title level="a" ref="#essay-eulhae">을해시단총평</title>에서 이미 <title level="a" type="critic" id="essay-byeonyong">시적 변용에 대하여</title>의 주된 내용이자 자신의 시론의 정점에 해당하는 <term ref="#term-chehum">체험</term>과 <term ref="#term-byeonyong">변용</term>에 대한 인식을 어느 정도 가지고 있었음을 보여준다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s232">
+              <persName ref="#park-yongcheol">박용철</persName> 후기 시론의 중요성은 시의 창작과정에 대한 탐색에서 찾을 수 있다.
+            </s>
+            <s id="s233">
+              이 창작과정의 시론은 <persName ref="#housman">하우스만</persName> 시론의 수용뿐 아니라, <term ref="#term-gigyojuui">기교주의 논쟁</term>의 과정에서 <persName ref="#im-hwa">임화</persName> 시론과 <persName ref="#kim-girim">김기림</persName> 시론에 대응하는 나름의 독자적인 시론을 제시한다는 의도도 그 계기로 작용한다.
+            </s>
+            <s id="s234">
+              즉 <persName ref="#im-hwa">임화</persName>나 <persName ref="#kim-girim">김기림</persName>의 시론이 간과하고 있는, 시의 생성과정에 작용하는 은밀한 비밀을 밝혀냄으로써 <interp value="affirmative" ana="이론적기여">시의 본질을 천착하고자 한 것이다</interp>.
+            </s>
+            <s id="s235">
+              <persName ref="#park-yongcheol">박용철</persName>은 <title level="a" type="critic">「기교주의」설의 허망</title>에서 <persName ref="#im-hwa">임화</persName>와 <persName ref="#kim-girim">김기림</persName> 시론에 대한 대안으로 시 창작과정의 비밀을 밝히려 했지만, 표현 이전의 충동에 비중을 두는 종전의 관점과 언어표현의 기술을 고려해야 한다는 새로운 관점 사이에서 균열을 일으킨다.
+            </s>
+            <s id="s236">
+              이 균열의 근본 원인은 언어를 단순히 표현의 도구로 보는 관점에 있는데, <persName ref="#park-yongcheol">박용철</persName>은 이 균열을 해소하기 위해 '<term ref="#term-chehum">체험</term>'과 '<term ref="#term-byeonyong">변용</term>'의 개념을 집중적으로 탐색하는 것으로 보인다.
+            </s>
+            <s id="s237">
+              이러한 탐색은 <persName ref="#park-yongcheol">박용철</persName>의 마지막 시론인 <title level="a" ref="#essay-byeonyong">시적 변용에 대하여</title>에서 구체화된다.
+            </s>
+            <s id="s238">
+              이 평문은 종전의 시관들을 한 차원 높은 수준에서 결집하고 승화시키고 있다.
+            </s>
+          </p>
+
+          <p>
+            <quote type="direct" source="시적 변용에 대하여" genre="critic">
+              <s id="q036">
+                우리의 모든 체험은 피 가운데로 용해한다.
+              </s>
+              <s id="q037">
+                피 가운데로, 피 가운데로, 한낱 감각과 한 가지 구경과, 구름같이 펴올랐든 생각과, 한 근육의 움직임과, 읽은 시 한 줄, 지나간 격정이 모도 피 가운데 알아보기 어려운 용해된 기록을 남긴다.
+              </s>
+              <s id="q038">
+                (중략) 흙 속에서 어찌 풀이 나고 꽃이 자라며 버섯이 생기고? 무슨 솜씨가 피 속에서 시를, 시의 꽃을 피여나게 하느뇨? 변종을 맨들어내는 원예가. 하나님의 다음 가는 창조자.
+              </s>
+              <s id="q039">
+                그는 실로 교묘하게 배합하느리라, 그러나 몇 곱절이나 더 참을성 있게 기다리는 것이랴!
+              </s>
+              <s id="q040">
+                교묘한 배합, 고안, 기술, 그러나 그 위에 다시 참을성있게 기다려야 되는 변종 발생의 찬스.
+              </s>
+            </quote>
+          </p>
+
+          <p>
+            <s id="s239">
+              인용문은 '<term ref="#term-chehum">체험</term>'과 '<term ref="#term-byeonyong">변용</term>'이라는 중심 개념으로 요약될 수 있다.
+            </s>
+            <s id="s240">
+              먼저 첫 부분은 '<term ref="#term-chehum">체험</term>'에 대한 진술로서, "우리의 모든 체험은 피 가운데로 용해한다"는 문장에 집약된다.
+            </s>
+            <s id="s241">
+              감각, 구경, 생각, 근육의 움직임, 시 한 줄, 지나간 격정 등의 모든 삶의 체험들이 피 가운데로 용해된다는 말은, <term ref="#term-saengri">생리적 필연성</term>으로 육화된다는 의미이다.
+            </s>
+            <s id="s242">
+              둘째 부분은 이러한 체험의 '<term ref="#term-byeonyong">변용</term>'에 대한 진술이다.
+            </s>
+            <s id="s243">
+              "피 속에서 시를, 시의 꽃을 피여나게 하는" 것은 신체적 • <term ref="#term-saengri">생리적</term>으로 육화된 체험에서 시를 생성시키는 과정, 즉 시 창작과정인데, "무슨 솜씨가"라는 구절은 이 창작과정에 '기술'이 요구된다는 의미가 된다.
+            </s>
+            <s id="s244">
+              그런데 <persName ref="#park-yongcheol">박용철</persName>은 이 <term ref="#term-byeonyong">변용</term>에 '기술'뿐 아니라 '기다림'이 요구된다고 지적하고, "몇 곱절이나 더 참을성있게 기다리는 것"이라고 강조한다.
+            </s>
+            <s id="s245">
+              이 기다림은 시 창작의 과정이 단순한 의도적 기술의 문제가 아니라 비의도적 • <term ref="#term-saengri">생리적 필연성</term>에 근거하고 있음을 의미하는 것이다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s246">
+              결국 <persName ref="#park-yongcheol">박용철</persName> 후기 시론의 요체인 '<term ref="#term-chehum">체험</term>'과 '<term ref="#term-byeonyong">변용</term>'은 '경험의 신체적 육화'와 시 제작과정에서의 '기술' 및 '기다림'으로 요약되는 것으로, <interp value="affirmative" ana="이론적성과">표현 이전의 충동과 시 창작과정의 기술 사이에 존재하는 모순을 해소하려는 시도인 것이다</interp>.
+            </s>
+            <s id="s247">
+              <persName ref="#park-yongcheol">박용철</persName>은 <title level="a" ref="#essay-byeonyong">시적 변용에 대하여</title>에서 <persName role="poet" id="rilke">릴케</persName>의 '<term ref="#term-chehum">체험</term>'과 '<term ref="#term-byeonyong">변용</term>'을 중심으로 <term type="movement" ref="#movement-symbolism">상징주의적</term> 시론을 수용하여 시 창작과정상의 표현의 문제를 천착하고 있음에도 불구하고, 표현 이전의 충동인 영혼 • 영감 • 감정의 독자적 가치를 보존하고 싶어한다.
+            </s>
+            <s id="s248">
+              이 고민은 시 창작과정으로서의 언어표현의 관점이 '기술사(奇術師)'의 차원으로 떨어질 우려에서 기인하는데, 이를 해소하기 위해 <persName ref="#park-yongcheol">박용철</persName>은 <term ref="#term-chehum">체험</term>과 <term ref="#term-byeonyong">변용</term>의 시론에 '나무'의 비유와 '영감'의 성장설을 도입하게 된다.
+            </s>
+          </p>
+
+          <p>
+            <quote type="direct" source="시적 변용에 대하여" genre="critic">
+              <s id="q041">
+                시인은 진실로 우리 가운데서 자라난 한 포기 나무다.
+              </s>
+              <s id="q042">
+                청명한 하늘과 적당한 온도 아래서 무성한 나무로 자라나고 장림(長霖)과 담천(曇天) 아래서는 험상궂은 버섯으로 자라날수 있는 기이한 식물이다.
+              </s>
+              <s id="q043">
+                (중략) 그는 다만 기록하는 이상으로 그 기후를 생활한다.
+              </s>
+              <s id="q044">
+                꽃과 같이 자연스러운 시, 꾀꼬리같이 흘러나오는 노래, 이것은 도달할 길 없는 피안을 이상화한 말일뿐이다.
+              </s>
+              <s id="q045">
+                비상한 고심과 노력이 아니고는 그 생활의 정(精)을 모아 표현의 꽃을 피게 하지 못하는 비극을 가진 식물이다.
+              </s>
+            </quote>
+          </p>
+
+          <p>
+            <quote type="direct" source="시적 변용에 대하여" genre="critic">
+              <s id="q046">
+                영혼이 우리에게 와서 시를 잉태시키고는 수태를 고지하고 떠난다.
+              </s>
+              <s id="q047">
+                우리는 처녀와 같이 이것을 경건히 받들어 길러야한다.
+              </s>
+              <s id="q048">
+                조금이라도 마음을 놓기만하면 소산(小産)해 버리는 이것은 귀태(鬼胎)이기도 하다.
+              </s>
+              <s id="q049">
+                완전한 성숙이 이르렀을 때 태반이 회동그란이 돌아 떨어지며 새로운 창조물 새로운 개체는 탄생한다.
+              </s>
+              <s id="q050">
+                많이는 다시 영감의 도움의 손을 기다려서야 이 장구한 진통에 끝을 맺는다.
+              </s>
+            </quote>
+          </p>
+
+          <p>
+            <s id="s249">
+              <persName ref="#park-yongcheol">박용철</persName>은 시인을 나무에 비유한다.
+            </s>
+            <s id="s250">
+              '나무'의 비유는 여러 가지 의미에서 <term type="concept" ref="#concept-organism">유기체적</term> 시관을 함축한다.
+            </s>
+            <s id="s251">
+              나무는 성장하고 성숙하는 생명체인 점에서 생명에의 의지를 지니고 있다.
+            </s>
+            <s id="s252">
+              또한 나무는 기후나 온도 등의 환경 여하에 따라 다르게 자라나는 비의지적 수동성과 <term ref="#term-saengri">생리적 필연성</term>을 지닌다.
+            </s>
+            <s id="s253">
+              그런데 이러한 언급은 표현 이전의 충동에 해당하는 체험이나 <term ref="#term-saengri">생리적 필연성</term>을 강조하는 관점이므로, <persName ref="#park-yongcheol">박용철</persName>은 그것이 절대화되는 것을 경계하여 다시 표현과정의 고심과 노력이 중요함을 덧붙인다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s254">
+              그래서 인용문의 후반부는 표현의 꽃을 피게 하는 창작과정의 노력을 강조하게 된다.
+            </s>
+            <s id="s255">
+              영감이 시를 잉태시키고 시인은 처녀같이 그것을 받들어 기른다는 비유는 역시 <term ref="#concept-organism">유기체적</term> 시관에 입각해 있다.
+            </s>
+            <s id="s256">
+              잉태에서 탄생에 이르는 진통의 과정은 생명의 씨앗이 자라나 꽃을 피우고 열매를 맺는 유기적 성숙의 과정에 해당된다.
+            </s>
+            <s id="s257">
+              영감은 이 유기적 성숙과정에서 최초의 씨앗에 해당하지만, 그것이 완전한 성숙에 이르러 탄생하기 위해서는 경건한 태교와 기다림이 필요하다.
+            </s>
+            <s id="s258">
+              결국 <persName ref="#park-yongcheol">박용철</persName>은 '<term ref="#term-saengri">생리적 필연성</term>'과 '언어표현의 기술'이라는 두 관점 사이를 왕래하며 '<term ref="#term-chehum">체험</term>'과 '<term ref="#term-byeonyong">변용</term>'의 시론을 구체화하고 있는 것이다.
+            </s>
+            <s id="s259">
+              이 평문의 제목이 '<title level="a" ref="#essay-byeonyong">시적 변용에 대해서</title>'라는 점에서도 알 수 있듯, <persName ref="#park-yongcheol">박용철</persName>은 이 시론에서 주로 언어표현의 기술을 포함하는 '<term ref="#term-byeonyong">변용</term>'의 과정을 천착하려 했던 것으로 보인다.
+            </s>
+            <s id="s260">
+              그러나 표현 이전의 충동에 해당하는 영혼 • 영감 • 감정 등의 고유한 가치에 대해 애착을 유지하고 있는 <persName ref="#park-yongcheol">박용철</persName>은, 그것을 다시 강조하면서 시론을 끝맺는다.
+            </s>
+          </p>
+
+          <p>
+            <quote type="direct" source="시적 변용에 대하여" genre="critic">
+              <s id="q051">
+                시는 시인이 늘어놓는 이야기가 아니라, 말을 재료 삼은 꽃이나 나무로 어느 순간의 시인의 한 쪽이 혹은 왼통이 변용하는 것이라는 주장을 위해서 이미 수천 언을 버려놓았으나 다시 돌이켜 보면 이것이 모두 미래에 속하는 일이라 할 수도 있다.
+              </s>
+              <s id="q052">
+                시인으로서나 거저 사람으로나 우리게 가장 중요한 것은 심두(心頭)에 한 점 경경(炯炯)한불을 길르는 것이다.
+              </s>
+              <s id="q053">
+                (중략) 이 무명화(無名火), 시인에게 있어서 이 불기운은 그의 시에 앞서는 것으로 한 선시적(先詩的)인 문제이다.
+              </s>
+              <s id="q054">
+                그러나 그가 시를 닦음으로 이 불기운이 길러지고 이 불기운이 길러짐으로 그가 시에서 새로 한 걸음을 내여드딜 수 있게되는 교호작용이야말로 예술가의 누릴 수 있는 특전이요 또 그 이상적인 코스일 것이다.
+              </s>
+            </quote>
+          </p>
+
+          <p>
+            <s id="s261">
+              인용문의 전반부에서 <persName ref="#park-yongcheol">박용철</persName>은 시 창작과정의 '<term ref="#term-byeonyong">변용</term>'보다 그 이전의 내면적 '<term ref="#term-chehum">체험</term>'이 더 중요하다고 말하고 그것을 "<term type="concept" id="term-mumyeonghwa">무명화(無名火)</term>"라고 부른다.
+            </s>
+            <s id="s262">
+              이 '<term ref="#term-mumyeonghwa">무명화</term>'는 전기 시론에서부터 견지해 온 <persName ref="#park-yongcheol">박용철</persName> 시관의 중심 개념인 표현 이전의 충동, 즉 영혼 • 영감 • 감정을 의미한다.
+            </s>
+            <s id="s263">
+              이것을 '불'에 비유한 것은 생명에의 의지와 성스러운 기운을 암시하기 위함이요, '무명'이라고 한 것은 언어 표현 이전의 상태, 즉 시 이전의 상태를 의미하기 위한 것으로 보인다.
+            </s>
+            <s id="s264">
+              따라서 이 '무명'은 <persName ref="#rilke">릴케</persName>의 '이름없는 것'과는 변별성을 지닌다.
+            </s>
+            <s id="s265">
+              <persName ref="#rilke">릴케</persName>의 대지의 사상은 시인의 내면공간에서 언표 가능한 세계의 사물들이 언표 불가능한 비의(秘意)를 지닌 상태로 변용하는 것을 말하는 데 반해, <persName ref="#park-yongcheol">박용철</persName>의 '무명'은 <term ref="#term-byeonyong">변용</term> 혹은 언어표현 이전의 순수한 영감의 상태를 말하는 것이기 때문이다.
+            </s>
+            <s id="s266">
+              그런데 <persName ref="#park-yongcheol">박용철</persName>은 이 <term ref="#term-mumyeonghwa">무명화</term>, 즉 선시적(先詩的)인 것이 가장 중요하다는 전제하에, 시에서 새로운 한 걸음을 내닫기 위해서는 이 불기운과 언어표현의 기술을 연마하는 것 사이에 교호작용이 요구된다는 지적을 덧붙인다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s267">
+              결국 <persName ref="#park-yongcheol">박용철</persName> 후기 시론의 요체는 전기 시론에서부터 견지해 온 표현 이전의 충동에 애착을 가지면서, 그것과 교호작용하는 언어표현의 기술적 문제를 '<term ref="#term-chehum">체험</term>'과 '<term ref="#term-byeonyong">변용</term>'의 시론으로 구체화하는 데 있다.
+            </s>
+            <s id="s268">
+              그 구체화의 작업은 표현 이전의 충동을 중시하는 관점과 언어적 표현과정을 천착하는 관점 사이의 균열을 안은 채 그 사이를 왕래하면서, <interp value="affirmative" ana="이론적성과">유기체적 시론의 의미 있는 성과를 이루었다</interp>고 평가될 수 있다.
+            </s>
+          </p>
+        </div>
+      </div>
+
+      <div type="section" id="section-3">
+        <head>3. 박용철 시론의 계보</head>
+
+        <p>
+          <s id="s301">
+            전기 시론과 후기 시론의 연속성 및 변별성을 포괄하여 <persName ref="#park-yongcheol">박용철</persName> 시론의 특징을 전체적으로 규정하는 것은 <term type="concept" ref="#concept-organism">유기체적 문제설정</term>이다.
+          </s>
+          <s id="s302">
+            문학의 유기체론은 우선 유비적 사유와 <term ref="#concept-organism">유기체적 세계관</term>에 기초한다.
+          </s>
+          <s id="s303">
+            사유방법으로서의 '유비'(analogy)는 '논리'와 대비되는 것으로서, 인간의 내면과 외부 현상을 결합시켜 동일화하거나 닮지 않은 것 사이에서 동일성을 찾는 것이다.
+          </s>
+          <s id="s304">
+            인간적 삶이나 행위를 자연 현상에 견주는 전통적 사유 형태도 이 유비에 해당한다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s305">
+            한편 <term ref="#concept-organism">유기체적 세계관</term>은 이 유비적 사유가 하나의 세계관으로 정립된 것으로서, 세계 • 우주 • 혹은 대상을 정적 기계주의로 보지 않고 식물과 같은 동적 유기체로 보는 관점이다.
+          </s>
+          <s id="s306">
+            유기체란 이미 만들어져 고정된 대상이 아니라 만들어지고 있거나 자라나고 있는 과정의 생명체이다.
+          </s>
+          <s id="s307">
+            생명체는 탄생 • 성장 • 소멸의 연속성을 그 본질로 삼는다.
+          </s>
+          <s id="s308">
+            따라서 이 <term ref="#concept-organism">유기체적 세계관</term>은 유기체적 자연관, 유기체적 역사관 등을 포함하고 있다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s309">
+            이러한 유비적 사유방식과 <term ref="#concept-organism">유기체적 세계관</term>을 기초로 한 문학 유기체론은 과정이론 • 존재이론 • 가치이론 • 역사이론 등의 이론 영역을 갖는데, 그 전체적 내용은 연속성 • 역동성 • 전체성 등의 중심개념으로 요약된다고 볼 수 있다.
+          </s>
+          <s id="s310">
+            문학 유기체론의 일반적 개념들은 동 • 서의 전통적 문학관에 그 뿌리를 두고 있는데, 근대 이후의 문예사조나 미적 실천으로서는 직접적으로 <term ref="#movement-romanticism">낭만주의적</term> 문학관과, 간접적으로 <term ref="#movement-symbolism">상징주의적</term> 문학관과 관련성을 지닌다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s311">
+            <term ref="#concept-organism">유기체적 문제설정</term>을 특징으로 하는 <persName ref="#park-yongcheol">박용철</persName> 시론의 계보에 해당하는 시론으로 1930년대 후반의 <persName ref="#jeong-jiyong">정지용</persName> 시론, 1940년대의 <persName role="critic poet" id="jo-jihun">조지훈</persName> 시론, 1980년대 이후의 <persName role="critic" id="choi-dongho">최동호</persName> 시론 등을 들 수 있다.
+          </s>
+          <s id="s312">
+            시론 이외의 분야로는 1930년대 <persName role="critic" id="kim-hwantae">김환태</persName>, <persName role="critic" id="kim-munjip">김문집</persName>의 인상주의 비평, 식민지 시대에서 해방 이후까지 이어지는 <persName role="scholar" id="jo-yunje">조윤제</persName>의 <term ref="#concept-organism">유기체적</term> 문학사론, <persName role="critic novelist" id="kim-dongri">김동리</persName> • <persName role="critic" id="jo-yeonhyeon">조연현</persName>의 구경적(究竟的) 삶의 비평도 여기에 속한다고 볼 수 있다.
+          </s>
+          <s id="s313">
+            <term ref="#concept-organism">유기체적 문제설정</term>은 동 • 서양의 고전적 문학관과 밀접한 연관성을 가지고 있으므로 한국 고전시론사 연구도 이 유형의 계보적 연구의 대상이 될 것으로 판단된다.
+          </s>
+          <s id="s314">
+            따라서 <persName ref="#park-yongcheol">박용철</persName> 시론을 거점으로 하는 <term ref="#concept-organism">유기체적 문제설정</term>의 계보적 연구는 <interp value="affirmative" ana="연구의의">국문학 연구의 중요 과제인, 고전 문학과 현대문학의 연속성을 규명하는 데에도 기여할 것으로 생각된다</interp>.
+          </s>
+        </p>
+
+        <p>
+          <s id="s315">
+            <persName ref="#park-yongcheol">박용철</persName> 시론의 현재성을 점검할 때, 그 영향 관계가 앞서 언급한 <term ref="#concept-organism">유기체적 문제설정</term> 이외에도 작용하고 있음을 밝히는 것은 한국 현대시론사 연구에서 하나의 중요한 쟁점이 될 수 있다.
+          </s>
+          <s id="s316">
+            그 하나의 사례로서, <persName role="poet critic" id="kim-suyoung">김수영</persName> 시론이 지닌 <persName ref="#park-yongcheol">박용철</persName> 시론과의 관련성을 간략히 정리하면서 이 글을 마무리하고자 한다.
+          </s>
+          <s id="s317">
+            <persName ref="#kim-suyoung">김수영</persName>의 시론은 지금까지 <term ref="#movement-modernism">모더니즘</term>과 <term ref="#movement-realism">리얼리즘</term>의 이분법적 대립 구도 속에서 각각 연구되어 왔다.
+          </s>
+          <s id="s318">
+            그러나 <interp value="affirmative" ana="계보연구제안">김수영의 시론은 박용철의 '생명 시론'과의 연관성을 계보학적으로 고찰할 때 그 정체가 더 선명히 해명될 수 있다</interp>.
+          </s>
+        </p>
+
+        <p>
+          <s id="s319">
+            <persName ref="#kim-suyoung">김수영</persName> 시론의 핵심이 되는 미학적 근거는 '힘'에 있는데, 이 '힘'의 정체와 그 발생 과정을 중심으로 <persName ref="#kim-suyoung">김수영</persName> 시론을 요약하면 다음과 같이 정리될 수 있다.
+          </s>
+          <s id="s320">
+            첫째, 시 혹은 언어 이전의 내용으로서 '양심'과 '사상'과 '지성'을 중시한다.
+          </s>
+          <s id="s321">
+            둘째, 시의 '내용'을 '시를 논한다는 것- 산문- 현실성- 모험- 세계의 개진'과 동류항에 놓고, 시의 '형식'을 '시를 쓴다는 것- 노래- 예술성- 모호성, 미지의 혼돈- 대지의 은폐'와 동류항에 놓는다.
+          </s>
+          <s id="s322">
+            셋째, 시의 내용은 산문의 모험 및 세계의 개진을 통해 자유의 이행으로서의 혼돈에 도달함으로써 시의 형식과 만나고, 시의 형식에 해당하는 혼돈과 자유가 확보됨으로써 결핍된 지성의 문제가 충족된다는 점에서 시의 형식은 다시 시의 내용이 된다.
+          </s>
+          <s id="s323">
+            넷째, <persName ref="#kim-suyoung">김수영</persName>은 '자유의 이행'을 통해 시의 내용과 시의 형식, 현실성과 예술성, 세계의 개진과 대지의 은폐를 동시에 온몸으로 밀고 나감으로써 회귀와 확장을 끝없이 지속하는, 양극의 모순과 극복의 과정을 보여준다.
+          </s>
+          <s id="s324">
+            다섯째, 이처럼 온몸을 통한 '자유의 이행'을 통해 '힘'을 구현하는 시가 생성될 때, 그것은 '사랑'과 '혼란' 그리고 '죽음'과도 상통하는 차원을 획득한다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s325">
+            <persName ref="#kim-suyoung">김수영</persName>이 시 이전의 내용을 중시하고 그 내용의 차원에 '양심'과 '사상'과 '지성'을 대응시키는 양상은 '내용 중시의 시론'으로서, 선시적인 것, 즉 시 이전의 <term ref="#term-chehum">체험</term>이나 충동을 중시하는 <persName ref="#park-yongcheol">박용철</persName>의 시론과 유사성을 지닌다.
+          </s>
+          <s id="s326">
+            그리고 <persName ref="#kim-suyoung">김수영</persName>이 온몸을 밀고나가는 투신의 과정에서 내용과 형식 사이의 양극의 모순을 극복하려는 지향은 '창작과정상의 시론'으로서, '<term ref="#term-chehum">체험</term>'과 '<term ref="#term-byeonyong">변용</term>'의 개념을 중심으로 시인의 창작 체험에 초점을 맞추는 <persName ref="#park-yongcheol">박용철</persName> 시론과 유사성을 지닌다.
+          </s>
+          <s id="s327">
+            더 나아가 <persName ref="#kim-suyoung">김수영</persName> 시론은 <persName ref="#park-yongcheol">박용철</persName> 시론의 핵심인 경험의 신체적 육화를 통한 <term ref="#concept-organism">유기체적</term> 시론의 차원을 계승하고 있다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s328">
+            <persName ref="#park-yongcheol">박용철</persName>의 '생명 시론'은 <term ref="#term-saengri">생리적 필연성</term>과 언어 표현 과정상의 기술 문제를 상호교섭적으로 탐구함으로써, 경험의 신체적 육화와 시 창작과정의 기술 및 기다림을 중시한다.
+          </s>
+          <s id="s329">
+            <persName ref="#kim-suyoung">김수영</persName>의 시론은 온몸을 동시에 밀고나가는 투신을 통해 현실성과 예술성, 세계의 개진과 대지의 은폐 사이의 교호작용을 끊임없이 추구함으로써 시의 내용과 형식 사이의 간극을 통합시켜나갔다.
+          </s>
+          <s id="s330">
+            즉 <persName ref="#kim-suyoung">김수영</persName> 시론이 보여준 내용과 형식의 모순 극복 과정은 <interp value="affirmative" ana="계보관계분석">박용철 시론이 보여준 체험과 변용의 모순 극복 과정의 연장선에 놓여있다</interp>고 볼 수 있다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s331">
+            이런 차원에서 <persName ref="#kim-suyoung">김수영</persName>의 시론은 <term ref="#movement-modernism">모더니즘</term>의 한계를 극복하고 <term ref="#movement-realism">리얼리즘</term>으로 전개되었다는 기존의 일반적인 평가보다는, <interp value="affirmative" ana="시론재평가">모더니즘과 리얼리즘의 양극을 유기체적 문제설정으로 통합시켜나갔다고 보는 것이 더 타당할 것이다</interp>.
+          </s>
+          <s id="s332">
+            결국 <persName ref="#kim-suyoung">김수영</persName>의 시론은 1930년대 <persName ref="#kim-girim">김기림</persName>의 <term ref="#movement-modernism">모더니즘</term> 시론이 보여준 기하학적 문제설정과 <persName ref="#im-hwa">임화</persName>의 <term ref="#movement-realism">리얼리즘</term> 시론이 보여준 변증법적 문제설정을 통합하는 중요한 계기로서, <interp value="affirmative" ana="문학사적의의">박용철의 신체적 육화에 근거한 생명 시론의 유기체적 문제설정을 흡수함으로써, 한국 현대시론의 전개에 있어서 현대성의 한 중요한 성과를 얻게 되는 것이다</interp>.
+          </s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
