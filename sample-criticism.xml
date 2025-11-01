@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 tei-criticism-schema.xsd">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>한국 현대문학의 리얼리즘 연구</title>
+        <author>
+          <persName id="author-baek" role="critic scholar">백철</persName>
+        </author>
+        <respStmt>
+          <resp>XML 인코딩</resp>
+          <name>한국문학연구소</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <p>디지털 아카이브 구축 프로젝트, 2025년 11월</p>
+      </publicationStmt>
+
+      <sourceDesc>
+        <biblStruct type="journal">
+          <analytic>
+            <title>리얼리즘과 한국 근대문학</title>
+            <author>
+              <persName ref="#author-baek">백철</persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title>문학과 지성</title>
+            <author>
+              <persName>문학과지성사 편집부</persName>
+            </author>
+            <imprint>
+              <pubPlace>서울</pubPlace>
+              <publisher>문학과지성사</publisher>
+              <date when="1975-03">1975년 3월</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문의 맞춤법과 띄어쓰기를 현대 한글 맞춤법에 맞게 수정하였으며, 명백한 오식은 교정하였습니다.</p>
+      </editorialDecl>
+
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="persName" occurs="15"/>
+          <tagUsage gi="title" occurs="8"/>
+          <tagUsage gi="quote" occurs="5"/>
+          <tagUsage gi="term" occurs="12"/>
+        </namespace>
+      </tagsDecl>
+
+      <classDecl>
+        <taxonomy id="genre-taxonomy">
+          <category id="genre-novel">
+            <catDesc>소설</catDesc>
+          </category>
+          <category id="genre-poetry">
+            <catDesc>시</catDesc>
+          </category>
+          <category id="genre-criticism">
+            <catDesc>비평</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy id="movement-taxonomy">
+          <category id="movement-realism">
+            <catDesc>리얼리즘</catDesc>
+          </category>
+          <category id="movement-modernism">
+            <catDesc>모더니즘</catDesc>
+          </category>
+          <category id="movement-romanticism">
+            <catDesc>낭만주의</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <div type="contents">
+        <head>목차</head>
+        <list>
+          <item n="1">서론: 리얼리즘의 개념과 한국 문학</item>
+          <item n="2">1920년대 리얼리즘의 형성</item>
+          <item n="3">1930년대 리얼리즘의 전개</item>
+          <item n="4">결론</item>
+        </list>
+      </div>
+    </front>
+
+    <body>
+      <div type="introduction" id="div-intro">
+        <head>서론: 리얼리즘의 개념과 한국 문학</head>
+
+        <p>
+          <s id="s001">
+            <term type="movement" id="term-realism">리얼리즘</term>은 한국 근대문학사에서 가장 중요한 문예사조 중 하나이다.
+          </s>
+          <s id="s002">
+            <persName role="novelist">염상섭</persName>과
+            <persName role="novelist poet">김동인</persName>으로 대표되는 초기 리얼리즘 작가들은 한국 문학의 근대적 전환을 이끌었다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s003">
+            <persName role="critic">김윤식</persName>은
+            <quote type="direct" source="한국근대문학사상사, p.45" genre="critic">
+              리얼리즘은 단순한 모방이 아니라 현실에 대한 비판적 인식을 전제로 한다
+            </quote>
+            라고 지적한 바 있다.
+          </s>
+          <s id="s004">
+            이러한 관점은 <interp value="affirmative" ana="비평적 타당성">매우 설득력 있는 주장</interp>으로 평가받고 있다.
+          </s>
+        </p>
+      </div>
+
+      <div type="section" id="div-1920s">
+        <head>1920년대 리얼리즘의 형성</head>
+
+        <p>
+          <s id="s101">
+            1920년대는 한국 문학에서 <term type="movement">자연주의</term>와
+            <term type="movement">리얼리즘</term>이 형성된 시기이다.
+          </s>
+          <s id="s102">
+            <persName role="novelist" id="yeom-sangsub">염상섭</persName>의
+            <title level="a" type="novel">표본실의 청개구리</title>(1921)는
+            이 시기를 대표하는 작품이다.
+          </s>
+        </p>
+
+        <div type="argument" id="div-yeom-analysis">
+          <head>염상섭의 리얼리즘</head>
+
+          <p>
+            <s id="s201">
+              <persName ref="#yeom-sangsub">염상섭</persName>의 작품 세계는
+              <term type="concept">심리적 사실주의</term>로 특징지을 수 있다.
+              <note type="commentary">
+                심리적 사실주의는 외적 현실뿐 아니라 인물의 내면 의식까지 사실적으로 묘사하려는 경향을 말한다.
+              </note>
+            </s>
+            <s id="s202">
+              그의 대표작 <title level="a" type="novel">삼대</title>(1931)는
+              <orgName id="org-colonial-korea">식민지 조선</orgName>의
+              세대 갈등을 심도 있게 다루었다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s203">
+              <persName role="critic">백철</persName>은
+              <quote type="direct" source="신문학사조사, p.156" genre="critic">
+                염상섭은 한국 리얼리즘 소설의 진정한 선구자이다
+              </quote>
+              라고 평가하였다.
+            </s>
+          </p>
+        </div>
+
+        <div type="argument" id="div-kim-analysis">
+          <head>김동인과 자연주의</head>
+
+          <p>
+            <s id="s301">
+              <persName role="novelist poet" id="kim-dongin">김동인</persName>은
+              <title level="j" type="coterie">창조</title> 동인으로 활동하며
+              한국 근대소설의 기틀을 마련했다.
+            </s>
+            <s id="s302">
+              그의 작품 <title level="a" type="novel">감자</title>(1925)는
+              <term type="movement">자연주의</term>적 경향을 보여준다.
+            </s>
+          </p>
+
+          <p>
+            <s id="s303">
+              작품 속 여성 인물의 몰락 과정은
+              <quote type="paraphrase" source="감자" genre="novel">
+                환경 결정론적 세계관
+              </quote>을 반영한다.
+            </s>
+            <s id="s304">
+              이는 <interp value="neutral" ana="문학사적 의의">
+                당대 자연주의 문학의 전형적 특징
+              </interp>으로 이해할 수 있다.
+            </s>
+          </p>
+        </div>
+      </div>
+
+      <div type="section" id="div-1930s">
+        <head>1930년대 리얼리즘의 전개</head>
+
+        <p>
+          <s id="s401">
+            1930년대에는 <term type="movement">카프(KAPF)</term> 문학과
+            순수문학 진영의 리얼리즘이 공존하였다.
+          </s>
+          <s id="s402">
+            <persName role="novelist">이기영</persName>,
+            <persName role="novelist">한설야</persName> 등의
+            프로레타리아 작가들은 계급의식을 담은 리얼리즘 작품을 발표했다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s403">
+            한편 <persName role="novelist">이효석</persName>과
+            <persName role="novelist">박태원</persName>은
+            <term type="movement">모더니즘</term>과 리얼리즘을 결합한 새로운 형식을 실험하였다.
+          </s>
+          <s id="s404">
+            <persName ref="#author-baek">백철</persName>은 이를
+            <interp value="affirmative" ana="문학사적 평가">
+              한국 문학의 중요한 전환점
+            </interp>으로 평가한다.
+          </s>
+        </p>
+      </div>
+
+      <div type="conclusion" id="div-conclusion">
+        <head>결론</head>
+
+        <p>
+          <s id="s501">
+            한국 근대문학에서 <term ref="#term-realism">리얼리즘</term>은
+            단순한 기법이 아니라 시대정신을 반영하는 세계관이었다.
+          </s>
+          <s id="s502">
+            <persName role="novelist">염상섭</persName>으로 시작된 리얼리즘 전통은
+            이후 한국 문학의 주류를 형성하였으며,
+            오늘날까지도 그 영향력을 유지하고 있다.
+          </s>
+        </p>
+
+        <p>
+          <s id="s503">
+            향후 연구에서는 리얼리즘과 다른 사조들과의 상호작용,
+            특히 <term type="movement">모더니즘</term> 및
+            <term type="movement">민족주의</term>와의 관계를
+            더욱 심도 있게 탐구할 필요가 있다.
+          </s>
+        </p>
+      </div>
+    </body>
+
+    <back>
+      <div type="notes">
+        <head>참고 문헌</head>
+        <list>
+          <item n="1">
+            <ref target="bibliography">백철, 『신문학사조사』, 신구문화사, 1968.</ref>
+          </item>
+          <item n="2">
+            <ref target="bibliography">김윤식, 『한국근대문학사상사』, 한길사, 1984.</ref>
+          </item>
+          <item n="3">
+            <ref target="bibliography">염상섭, 『삼대』, 창작과비평사, 2005(1931).</ref>
+          </item>
+        </list>
+      </div>
+    </back>
+  </text>
+</TEI>
