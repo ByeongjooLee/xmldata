@@ -39,6 +39,7 @@
           <tagUsage gi="term" occurs="120"/>
           <tagUsage gi="quote" occurs="25"/>
           <tagUsage gi="orgName" occurs="10"/>
+          <tagUsage gi="interp" occurs="25"/>
         </namespace>
       </tagsDecl>
 
@@ -120,7 +121,7 @@
             빛과 그림자를 이용해 사물의 진상을 투사하는 영화 영사기를 상기시킨다고 하겠다.
           </s>
           <s id="s003">
-            그가 시론에서 '현대시'의 개념을 설명할 때 사용했던 다양한 수사(修辭)들은 이 '발전체'라는 용어를 향한 요약의 과정이라 할 만큼, 그가 강조한 현대시의 정신적 바탕은 이 '기계의 세계'와 '스피드의 동력학'에 긴박된 것이었다.
+            그가 시론에서 '현대시'의 개념을 설명할 때 사용했던 다양한 수사(修辭)들은 이 '발전체'라는 용어를 향한 요약의 과정이라 할 만큼, 그가 강조한 현대시의 정신적 바탕은 <interp value="affirmative" ana="시론적특징">이 '기계의 세계'와 '스피드의 동력학'에 긴박된 것</interp>이었다.
           </s>
         </p>
 
@@ -129,7 +130,7 @@
             <persName ref="#kim-girim">김기림</persName>의 시론은 그 이후로 '<term type="concept" id="term-machine-aesthetics">기계미</term>'와 '<term type="concept">스피드</term>'로 대변되는 문명학의 비판적 교섭의 층위에서 전개된다.
           </s>
           <s id="s005">
-            이것이 초기 시학을 대변하는 <title level="a" type="critic">감상에의 반역</title>의 한 구절임을 상기한다면, <persName ref="#kim-girim">김기림</persName>의 시학은 처음부터 기계 매체인 영화 장르와의 교섭을 준비하고 있었다고 할 수 있다.
+            이것이 초기 시학을 대변하는 <title level="a" type="critic">감상에의 반역</title>의 한 구절임을 상기한다면, <persName ref="#kim-girim">김기림</persName>의 시학은 <interp value="affirmative" ana="문학사적평가">처음부터 기계 매체인 영화 장르와의 교섭을 준비하고 있었다</interp>고 할 수 있다.
           </s>
         </p>
 
@@ -138,7 +139,7 @@
             <persName ref="#kim-girim">김기림</persName>이 다소 불확실하게 언급하고 있기는 하지만, 그는 이미 초기 시론에서 '<term type="concept" id="term-cinematic-modernism">Cinematic Modernism</term>'의 가능성을 언급했던 것이다.
           </s>
           <s id="s007">
-            시(문학)는 영화라는 혁신적인 기계 매체를 통해 기존 문학 담론의 관습적인 재현을 거부하면서 새로운 전위적 양식을 정교하면서도 강력하게 구축해 나갈 수 있게 된 것이다.
+            시(문학)는 영화라는 혁신적인 기계 매체를 통해 <interp value="affirmative" ana="방법론평가">기존 문학 담론의 관습적인 재현을 거부하면서 새로운 전위적 양식을 정교하면서도 강력하게 구축해 나갈 수 있게 된 것</interp>이다.
           </s>
         </p>
 
@@ -165,10 +166,10 @@
 
         <p>
           <s id="s012">
-            영화가 <term ref="#movement-modernism">모더니즘</term> 문학에서 주목받게 된 계기는 20세기 전후 시각성의 기술이 집약된 것으로써의 방법론적인 혁신을 가능하게 한 데서 찾을 수 있다.
+            영화가 <term ref="#movement-modernism">모더니즘</term> 문학에서 주목받게 된 계기는 <interp value="neutral" ana="매체론적분석">20세기 전후 시각성의 기술이 집약된 것으로써의 방법론적인 혁신을 가능하게 한 데서 찾을 수 있다</interp>.
           </s>
           <s id="s013">
-            1930년대 문인들의 관람자적 시선 속에서 영화는 모더니즘의 방법론적인 혁신을 가능하게 하면서, '크로씽 보더'의 주체로써 작동하게 된다는 점에서 중요한 의미를 띤다.
+            1930년대 문인들의 관람자적 시선 속에서 영화는 모더니즘의 방법론적인 혁신을 가능하게 하면서, <interp value="affirmative" ana="문학사적의의">'크로씽 보더'의 주체로써 작동하게 된다는 점에서 중요한 의미를 띤다</interp>.
           </s>
         </p>
 
@@ -177,7 +178,7 @@
             현대 추상 예술사에 있어서나 전위 예술의 문맥 속에서 '<term type="concept" ref="#concept-mechanicism">기계주의</term>'는 인식론적이면 미학적인 개념이었다.
           </s>
           <s id="s015">
-            '기계'에 대한 새로운 인식론적인 사고로부터 '기계'를 인간 육체와 아날로지 하는 다양한 표현 기법이 생겨나고, 기계 예술 매체의 총화인 영화의 등장은 문학 특히 시에 유사한 '기계적인 경험'을 제공하면서 형태적으로도 낯선 기법들을 제공하게 된다.
+            '기계'에 대한 새로운 인식론적인 사고로부터 '기계'를 인간 육체와 아날로지 하는 다양한 표현 기법이 생겨나고, 기계 예술 매체의 총화인 영화의 등장은 <interp value="affirmative" ana="매체론적평가">문학 특히 시에 유사한 '기계적인 경험'을 제공하면서 형태적으로도 낯선 기법들을 제공하게 된다</interp>.
           </s>
         </p>
 
@@ -195,7 +196,7 @@
             1920년대 서구 초창기 전위 영화인들, <persName ref="#fernand-leger">페르낭 레제</persName>, <persName ref="#jean-cocteau">장 꼭또</persName>, <persName role="other">마르셀 뒤썅</persName>, <persName ref="#rene-clair">르네 끌레르</persName>, <persName role="other">만 레이</persName> 등은 영화를 독립적인 장르로써보다는 미술, 음악 등 기존의 고전적인 예술 장르가 통합된 매체로써 영화에 관심을 기울인다.
           </s>
           <s id="s019">
-            특히 시와 영화의 관계는 밀접한데, <term ref="#concept-avantgarde">아방가르드</term> 예술가들은 영화 장르 자체의 미학적 인식에서 영화 제작에 관심을 갖기 보다는 시의 도구라는 개념으로 영화 매체를 이용하는 경향이 강했다.
+            특히 시와 영화의 관계는 밀접한데, <term ref="#concept-avantgarde">아방가르드</term> 예술가들은 <interp value="neutral" ana="예술경향분석">영화 장르 자체의 미학적 인식에서 영화 제작에 관심을 갖기 보다는 시의 도구라는 개념으로 영화 매체를 이용하는 경향이 강했다</interp>.
           </s>
         </p>
 
@@ -229,7 +230,8 @@
 
         <p>
           <s id="s105">
-            <persName ref="#kim-girim">김기림</persName>의 <term ref="#movement-modernism">모더니즘</term>의 방향성은 전위예술의 세계관과 방법론적 탐구가 그 바탕이 된 것이다.
+            <persName ref="#kim-girim">김기림</persName>의 <term ref="#movement-modernism">모더니즘</term>의 방향성은
+            <interp value="affirmative" ana="문학사적평가">전위예술의 세계관과 방법론적 탐구가 그 바탕이 된 것</interp>이다.
           </s>
           <s id="s106">
             따라서 <title level="a" type="critic">(속)오전의 시론</title> 등의 모더니즘 시론이나 <title level="a" type="poem">기상도</title>를 비롯한 시 작품들은 다른 예술 장르와의 관계 속에서 그 논점을 확장할 필요가 있다.
@@ -270,13 +272,15 @@
 
         <p>
           <s id="s113">
-            <persName ref="#kim-girim">김기림</persName>의 시론 및 시는, 주로 <persName role="poet" id="stephen-spender">스펜더</persName>, <persName role="poet" id="ezra-pound">에즈라 파운드</persName>, <persName role="poet" id="ts-eliot">엘리어트</persName> 등의 시인들에게서 영향을 받은 것으로 알려져 있는데, <persName ref="#stephen-spender">스펜더</persName>나 <persName ref="#ezra-pound">파운드</persName>, <persName ref="#ts-eliot">엘리어트</persName> 등의 초창기 정신을 지배한 것은 <term ref="#movement-futurism">미래파</term>의 기계적 생명력과 약동이었고 더 나아가 문명 사회에 대한 통찰을 담은 것이었다.
+            <persName ref="#kim-girim">김기림</persName>의 시론 및 시는, 주로 <persName role="poet" id="stephen-spender">스펜더</persName>, <persName role="poet" id="ezra-pound">에즈라 파운드</persName>, <persName role="poet" id="ts-eliot">엘리어트</persName> 등의 시인들에게서 영향을 받은 것으로 알려져 있는데, <persName ref="#stephen-spender">스펜더</persName>나 <persName ref="#ezra-pound">파운드</persName>, <persName ref="#ts-eliot">엘리어트</persName> 등의 초창기 정신을 지배한 것은
+            <term ref="#movement-futurism">미래파</term>의 <interp value="neutral" ana="영향관계분석">기계적 생명력과 약동이었고 더 나아가 문명 사회에 대한 통찰을 담은 것</interp>이었다.
           </s>
         </p>
 
         <p>
           <s id="s114">
-            이와 관련해 흥미로운 인물은 <persName ref="#fernand-leger">페르낭 레제(Fernand Leger)</persName>라는 <term ref="#movement-cubism">큐비즘</term> 화가이자 전위영화인이다.
+            이와 관련해
+            <interp value="affirmative" ana="인물평가">흥미로운 인물</interp>은 <persName ref="#fernand-leger">페르낭 레제(Fernand Leger)</persName>라는 <term ref="#movement-cubism">큐비즘</term> 화가이자 전위영화인이다.
           </s>
           <s id="s115">
             <persName ref="#fernand-leger">레제</persName>는 기계와 현대 발명품들은 궁극적으로 현대인을 유토피아적인 세계로 이끌 것이라고 믿었고, 과학 기술의 발명자들처럼 동시대 예술의 '발명'에 헌신하게 된다.
@@ -285,10 +289,12 @@
 
         <p>
           <s id="s116">
-            <title level="a" type="other">Ballet Mecanoque</title>는 <persName ref="#fernand-leger">레제</persName>가 1924년 만든 전위 단편 영화(약 11분)로, <persName ref="#fernand-leger">레제</persName>의 기계주의적 세계관이 통찰력있게 드러나 있다.
+            <title level="a" type="other">Ballet Mecanoque</title>는 <persName ref="#fernand-leger">레제</persName>가 1924년 만든 전위 단편 영화(약 11분)로, <persName ref="#fernand-leger">레제</persName>의 기계주의적 세계관이
+            <interp value="affirmative" ana="작품평가">통찰력있게 드러나 있다</interp>.
           </s>
           <s id="s117">
-            <persName ref="#fernand-leger">레제</persName>는 이 영화에서 실험적이고 전위적인 방법으로 사물의 생명력, 삶의 비약, 속도감 등의 주제들을 영상화 한다.
+            <persName ref="#fernand-leger">레제</persName>는 이 영화에서
+            <interp value="affirmative" ana="방법론평가">실험적이고 전위적인 방법</interp>으로 사물의 생명력, 삶의 비약, 속도감 등의 주제들을 영상화 한다.
           </s>
         </p>
 
@@ -355,10 +361,12 @@
 
         <p>
           <s id="s208">
-            <persName ref="#kim-girim">김기림</persName>이 입체파적인 감각과 사물을 보는 새로운 각도의 방법을 발견한 것은 다름 아닌 전위예술가이자 다양한 예술 장르들을 넘나들었던 <persName ref="#jean-cocteau">장 꼭또</persName>에게서였다는 것은 흥미롭다.
+            <persName ref="#kim-girim">김기림</persName>이 입체파적인 감각과 사물을 보는 새로운 각도의 방법을 발견한 것은 다름 아닌 전위예술가이자 다양한 예술 장르들을 넘나들었던 <persName ref="#jean-cocteau">장 꼭또</persName>에게서였다는 것은
+            <interp value="affirmative" ana="영향관계평가">흥미롭다</interp>.
           </s>
           <s id="s209">
-            <persName ref="#kim-girim">김기림</persName>은 <persName ref="#jean-cocteau">장 꼭또</persName>가 '새로운 각도'의 문제를 정면으로 제기한 것으로 평가한다.
+            <persName ref="#kim-girim">김기림</persName>은 <persName ref="#jean-cocteau">장 꼭또</persName>가
+            <interp value="affirmative" ana="이론적기여">'새로운 각도'의 문제를 정면으로 제기한 것</interp>으로 평가한다.
           </s>
         </p>
 
@@ -385,7 +393,7 @@
 
         <p>
           <s id="s303">
-            <persName ref="#stephen-spender">스펜더</persName>의 <title level="a" type="poem">급행열차</title>를 해설하면서 <persName ref="#kim-girim">김기림</persName>은 <term ref="#term-machine-aesthetics">기계미</term> 및 스피드의 동력학이 영화 매체의 시각성과 효과적으로 연결된다는 것을 암시적으로 밝혀놓았다.
+            <persName ref="#stephen-spender">스펜더</persName>의 <title level="a" type="poem">급행열차</title>를 해설하면서 <persName ref="#kim-girim">김기림</persName>은 <term ref="#term-machine-aesthetics">기계미</term> 및 스피드의 동력학이 영화 매체의 시각성과 <interp value="affirmative" ana="시론적기여">효과적으로 연결된다는 것을 암시적으로 밝혀놓았다</interp>.
           </s>
         </p>
 
@@ -400,16 +408,16 @@
 
         <p>
           <s id="s306">
-            <persName ref="#kim-girim">김기림</persName>의 '<term ref="#concept-cinepoetry">영화시</term>'에 대한 관심은 앞에서 이미 언급했듯, 영화의 건축학적이고 교향악적인 구조 구축과 관련이 있으며, 이는 기계 미디어로써의 영화의 장점을 문학 언어를 통해 구현함으로써 문학적 표현 형식을 입체화하려는 의도와 관련되어 있다.
+            <persName ref="#kim-girim">김기림</persName>의 '<term ref="#concept-cinepoetry">영화시</term>'에 대한 관심은 앞에서 이미 언급했듯, 영화의 건축학적이고 교향악적인 구조 구축과 관련이 있으며, 이는 <interp value="affirmative" ana="창작의도분석">기계 미디어로써의 영화의 장점을 문학 언어를 통해 구현함으로써 문학적 표현 형식을 입체화하려는 의도와 관련되어 있다</interp>.
           </s>
         </p>
 
         <p>
           <s id="s307">
-            <persName ref="#kim-girim">김기림</persName>의 시들은 기계주의적 시각의 입체적인 재현이라는 맥락에서 다시 확인할 필요가 있는데, 그것이 영화시학의 주요한 이론적 바탕이 된다는 것도 중요한 의미를 갖는다.
+            <persName ref="#kim-girim">김기림</persName>의 시들은 기계주의적 시각의 입체적인 재현이라는 맥락에서 다시 확인할 필요가 있는데, <interp value="affirmative" ana="이론적의의">그것이 영화시학의 주요한 이론적 바탕이 된다는 것도 중요한 의미를 갖는다</interp>.
           </s>
           <s id="s308">
-            활자 배치나 시각적 효과를 강조한 입체시 개념이나, 교향악적이고 건축학적인 구조를 강조한 '<term ref="#concept-cinepoetry">영화시</term>'의 주요 개념들은, 시를 언어 매체 및 기계 매체로써 이해하고자 했던 <persName ref="#kim-girim">김기림</persName>의 독특하고 선진적인 시각과 관련이 있다.
+            활자 배치나 시각적 효과를 강조한 입체시 개념이나, 교향악적이고 건축학적인 구조를 강조한 '<term ref="#concept-cinepoetry">영화시</term>'의 주요 개념들은, 시를 언어 매체 및 기계 매체로써 이해하고자 했던 <persName ref="#kim-girim">김기림</persName>의 <interp value="affirmative" ana="인물평가">독특하고 선진적인 시각</interp>과 관련이 있다.
           </s>
         </p>
       </div>
@@ -422,7 +430,7 @@
             지금까지 '<term ref="#term-cinematic-modernism">시네마틱 모더니즘</term>'이라는 관점으로 1930년대 <persName ref="#kim-girim">김기림</persName>의 시론과 '<term ref="#concept-cinepoetry">영화시</term>'를 조명해 보았다.
           </s>
           <s id="s402">
-            <persName ref="#kim-girim">김기림</persName>, <persName ref="#yi-sang">이상</persName>의 경우에 특징적으로 당대 영화 텍스트의 구체적이고 상세한 목록들을 언급하고 있는데, 서구의 이름난 영화 감독이나 전위예술가들 및 이와 관련된 전위 텍스트를 '서브 텍스트'로써 자신들의 문학의 주요 자양분으로 삼았음을 확인할 수 있다.
+            <persName ref="#kim-girim">김기림</persName>, <persName ref="#yi-sang">이상</persName>의 경우에 특징적으로 당대 영화 텍스트의 구체적이고 상세한 목록들을 언급하고 있는데, <interp value="affirmative" ana="수용양상평가">서구의 이름난 영화 감독이나 전위예술가들 및 이와 관련된 전위 텍스트를 '서브 텍스트'로써 자신들의 문학의 주요 자양분으로 삼았음을 확인할 수 있다</interp>.
           </s>
         </p>
 
@@ -431,7 +439,7 @@
             <persName ref="#rene-clair">르네 끌레르</persName>, <persName role="other">장 뒤비비에</persName>, <persName ref="#jean-cocteau">장 꼭또</persName>, <persName ref="#fernand-leger">페르낭 레제</persName>, <persName ref="#stephen-spender">스펜더</persName> 등이 그들이다.
           </s>
           <s id="s404">
-            이는 당대 예술 간의 '크로씽보더crossing borders'의 국면을 뒷받침해 주는데, 1930년대 모더니즘의 세계관과 조선 근대문학의 방향성 논의 또한 이 국면과 상당히 밀접하게 관련돼 있었다.
+            이는 당대 예술 간의 '크로씽보더crossing borders'의 국면을 뒷받침해 주는데, <interp value="affirmative" ana="문학사적평가">1930년대 모더니즘의 세계관과 조선 근대문학의 방향성 논의 또한 이 국면과 상당히 밀접하게 관련돼 있었다</interp>.
           </s>
         </p>
 
@@ -446,16 +454,16 @@
 
         <p>
           <s id="s407">
-            <persName ref="#fernand-leger">페르낭 레제</persName>, <persName ref="#jean-cocteau">장 꼭또</persName> 등에 대한 관심도 결국은 전위예술의 실험적이고 도전적인 세계관이나 방법론에 기초한 것이었다.
+            <persName ref="#fernand-leger">페르낭 레제</persName>, <persName ref="#jean-cocteau">장 꼭또</persName> 등에 대한 관심도 <interp value="affirmative" ana="영향관계분석">결국은 전위예술의 실험적이고 도전적인 세계관이나 방법론에 기초한 것</interp>이었다.
           </s>
           <s id="s408">
-            <persName ref="#kim-girim">김기림</persName>의 <term ref="#concept-cinepoetry">영화시</term>에 대한 장르론적 접근이나, <title level="a" type="poem">기상도</title> 및 <title level="a" type="poem">시네마 풍경</title> 등의 시들도 이 기계주의적 세계관과 관련해서 논의될 필요가 있다.
+            <persName ref="#kim-girim">김기림</persName>의 <term ref="#concept-cinepoetry">영화시</term>에 대한 장르론적 접근이나, <title level="a" type="poem">기상도</title> 및 <title level="a" type="poem">시네마 풍경</title> 등의 시들도 <interp value="affirmative" ana="연구방향제시">이 기계주의적 세계관과 관련해서 논의될 필요가 있다</interp>.
           </s>
         </p>
 
         <p>
           <s id="s409">
-            따라서 1930년대 문학과 영화, 그리고 다른 예술 장르와의 '크로씽보더'의 학제간 연구 및 매체학적 연구가 보다 절실하다고 하겠다.
+            따라서 <interp value="affirmative" ana="연구과제제안">1930년대 문학과 영화, 그리고 다른 예술 장르와의 '크로씽보더'의 학제간 연구 및 매체학적 연구가 보다 절실하다</interp>고 하겠다.
           </s>
         </p>
       </div>
