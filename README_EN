@@ -1,0 +1,127 @@
+# Korean Modern Literary Criticism XML Data Construction
+
+A Methodology for Digital Humanities Research on Korean Modern Literary Criticism
+
+## Project Overview
+
+This project provides a methodology and tools for transforming Korean modern literary criticism texts into structured XML-based data. While adhering to the TEI (Text Encoding Initiative) P5 guidelines, we designed a customized schema (XSD) that reflects the unique characteristics of literary criticism.
+
+### Key Features
+
+- **TEI P5 Based**: XML structure following international standards
+- **Criticism-Specific Markup**: Support for evaluative discourse (`<interp>`) and quotation (`<quote>`) elements
+- **External Data Linkage**: Connectivity with ISNI, Wikidata, Encyclopedia of Korean Culture, etc.
+- **Extensible Structure**: Expandable to semantic databases
+
+## Markup Elements
+
+### Core Elements
+
+| Element | Function | Key Attributes |
+|---------|----------|----------------|
+| `<persName>` | Personal names (authors, critics, etc.) | `role`, `xml:id`, `ref` |
+| `<title>` | Work titles, paper titles, journal names | `level`, `type` |
+| `<term>` | Concepts, movements, critical terminology | `type`, `xml:id` |
+| `<quote>` | Criticism and literary work quotations | `type`, `genre`, `source` |
+| `<interp>` | Critical evaluation and stance | `value`, `ana` |
+
+### Evaluation Attribute Values (`<interp>`)
+
+- `affirmative`: Positive evaluation
+- `neutral`: Neutral description
+- `critical`: Negative evaluation
+
+## File Structure
+
+```
+├── tei-criticism-schema.xsd    # XML schema definition
+├── examples/                    # Example XML files
+│   ├── baekchul_sample.xml     # Baek Cheol's "History of New Korean Literature" sample
+│   └── kimwoochang_sample.xml  # Kim Woo-chang criticism sample
+├── analysis/                    # Analysis results
+│   └── tagging_frequency.csv   # Tagging element frequency analysis
+├── README.md                    # Korean version
+└── README_EN.md                 # English version
+```
+
+## Usage Examples
+
+### Personal Name Markup
+
+```xml
+<persName 
+  role="critic" 
+  xml:id="isni-0000000084484348" 
+  ref="https://encykorea.aks.ac.kr/Article/E0047762">
+  Im Hwa
+</persName>
+```
+
+### Evaluation Markup
+
+```xml
+<interp value="affirmative" ana="Positive evaluation that translation was a preparatory process for the formation of new literature">
+  We can infer that it preceded as a direct preparatory process.
+</interp>
+```
+
+### Quotation Markup
+
+```xml
+<quote type="direct" genre="critic" source="Kim Soo-young">
+  "Poetry is the anxiety of one's own existence."
+</quote>
+```
+
+## Applications
+
+1. **XPath/XQuery Analysis**: Contextual exploration and data extraction
+2. **Network Analysis**: Visualization of influence relationships between critics and authors
+3. **Conceptual History Research**: Tracking historical changes in critical terminology
+4. **Canon Formation Studies**: Analysis of evaluation patterns for authors/works in literary history
+
+## External Data Connections
+
+This schema supports connections with the following external databases:
+
+- [ISNI (International Standard Name Identifier)](https://isni.org/)
+- [Wikidata](https://www.wikidata.org/)
+- [Encyclopedia of Korean Culture](https://encykorea.aks.ac.kr/)
+- [Naver Knowledge Encyclopedia](https://terms.naver.com/)
+
+## Technology Stack
+
+- XML 1.0
+- XSD (XML Schema Definition)
+- TEI P5 Guidelines
+- XPath / XQuery
+
+## References
+
+- TEI Consortium, *TEI P5: Guidelines for Electronic Text Encoding and Interchange*
+- Kim Baro et al., *XML(TEI) with Humanities*, Wikidocs, 2025
+- Kim Hyeon, "Digital Humanities and Classical Document Research," *Yeolsang Classical Studies*, 2016
+
+## Citation
+
+If you use this project in your research, please cite as follows:
+
+```
+Lee, Byeong-Joo, "Constructing and Utilizing XML Data for Korean Modern Literary Criticism: 
+A Methodological Approach to Digital Humanities Research," 
+Korean Poetics Research, Vol. 83, The Society of Korean Poetics, 2025.
+```
+
+## License
+
+The schema and methodology of this project are freely available for academic research purposes.  
+However, original text data is protected by copyright law and requires separate permission.
+
+## Contact
+
+- **Author**: Lee, Byeong-Joo (Department of Language and Literature, Korea Air Force Academy)
+- **GitHub**: [https://github.com/ByeongjooLee/xmldata](https://github.com/ByeongjooLee/xmldata)
+
+## Acknowledgments
+
+This research was supported by the Ministry of Education of the Republic of Korea and the National Research Foundation of Korea (NRF-2023S1A5A8079304).
